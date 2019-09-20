@@ -1,0 +1,94 @@
+<input type="text" id="brand_name" placeholder="品牌关键字">
+<input type="text" id="brand_url" placeholder="网址关键字">
+<input type="button" value="搜索" class="page" p="1">
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+        <tr>
+            <th>品牌id</th>
+            <th>名称</th>
+            <th>网址</th>
+            <th>是否展示</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody id="show">
+        {volist name='brandInfo' id='v'}
+        <tr brand_id="{$v.brand_id}" >
+            <td>{$v.brand_id}</td>
+            <td field="brand_name">
+                <span>{$v.brand_name}</span>
+                <input type="text" value="{$v.brand_name}" class="changeValue" style="display: none">
+            </td>
+            <td  field="brand_url">
+                <span>{$v.brand_url}</span>
+                <input type="text" value="{$v.brand_url}" class="changeValue"  style="display: none">
+            </td>
+            <td>
+                {if $v['is_show']==1}
+                √
+                {else/}
+                ×
+                {/if}
+            </td>
+            <td><a href="">删除</a></td>
+        </tr>
+        {/volist}
+
+        <tr>
+            <td colspan="5"> {$str|raw}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+
+<script>
+    $(function(){
+        //给类为page 增加一个点击事件 获取属性 p
+        $(document).on("click",".page",function(){
+            var _this=$(this);
+            var p=_this.attr('p');//获取页码
+            var brand_name=$("#brand_name").val();//获取条件
+            var brand_url=$("#brand_url").val();//获取条件
+            //把页码传给控制器
+            $.post(
+                "{:url('getBrandInfo')}",
+                {p:p,brand_name:brand_name,brand_url:brand_url},
+                function(res){
+                    $("#show").html(res);
+                }
+            );
+        })
+
+        //即点即改
+       $(document).on("click","span",function(){
+           var _this=$(this);
+           _this.hide();
+           _this.next("input").show();
+       })
+        $(document).on("blur",".changeValue",function(){
+            var _this=$(this);
+            //获取 修改新值 字段     品牌id
+            var _value=_this.val();
+            var _field=_this.parent("td").attr("field");
+            var brand_id=_this.parents("tr").attr('brand_id');
+
+            $.post(
+                "{:url('changeValue')}",
+                {value:_value,field:_field,brand_id:brand_id},
+                function(res){
+                    if(res=='ok'){
+                        _this.hide();
+                        _this.prev("span").text(_value).show();
+                    }
+                }
+            );
+
+        })
+    })
+</script>

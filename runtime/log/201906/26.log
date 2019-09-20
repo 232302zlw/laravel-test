@@ -1,0 +1,249 @@
+---------------------------------------------------------------
+[2019-06-26T14:32:24+08:00] 127.0.0.1 GET www.19.com/
+[运行时间：0.139008s] [吞吐率：7.19req/s] [内存消耗：2,912.09kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\index\index.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'hot_data',
+  3 => 'first_cate',
+  4 => 'second_cate',
+  5 => 'goods',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1  AND `is_nav_show` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_hot` = 1  AND `is_up` = 1 LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-26T14:32:25+08:00] 127.0.0.1 GET www.19.com/static/index/images/line.gif
+[运行时间：0.044002s] [吞吐率：22.73req/s] [内存消耗：1,572.52kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/css/style.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/line_gif' => '',
+  'images' => 'line.gif',
+)
+---------------------------------------------------------------
+[2019-06-26T14:32:27+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.186010s] [吞吐率：5.38req/s] [内存消耗：3,170.14kb] [文件加载：93]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,10,16,5,2) ORDER BY field(`goods_id`,15,10,16,5,2) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-26T14:32:34+08:00] 127.0.0.1 GET www.19.com/index.php/lists/index/cid/1.html
+[运行时间：0.124007s] [吞吐率：8.06req/s] [内存消耗：2,930.85kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,10,16,5,2) ORDER BY field(`goods_id`,15,10,16,5,2) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-26T14:34:54+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.164010s] [吞吐率：6.10req/s] [内存消耗：2,931.66kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,10,16,5,2) ORDER BY field(`goods_id`,15,10,16,5,2) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-26T14:47:52+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.152009s] [吞吐率：6.58req/s] [内存消耗：2,931.66kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,10,16,5,2) ORDER BY field(`goods_id`,15,10,16,5,2) [ RunTime:0.001000s ]

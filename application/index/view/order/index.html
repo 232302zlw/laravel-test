@@ -1,0 +1,211 @@
+<div class="top">
+    <div class="logo"><a href="Index.html"><img src="__STATIC__/index/images/logo.png" /></a></div>
+    <div class="search">
+    	<form>
+        	<input type="text" value="" class="s_ipt" />
+            <input type="submit" value="搜索" class="s_btn" />
+        </form>                      
+        <span class="fl"><a href="#">咖啡</a><a href="#">iphone 6S</a><a href="#">新鲜美食</a><a href="#">蛋糕</a><a href="#">日用品</a><a href="#">连衣裙</a></span>
+    </div>
+    <div class="i_car">
+    	<div class="car_t">购物车 [ <span>3</span> ]</div>
+        <div class="car_bg">
+       		<!--Begin 购物车未登录 Begin-->
+        	<div class="un_login">还未登录！<a href="Login.html" style="color:#ff4e00;">马上登录</a> 查看购物车！</div>
+            <!--End 购物车未登录 End-->
+            <!--Begin 购物车已登录 Begin-->
+            <ul class="cars">
+            	<li>
+                	<div class="img"><a href="#"><img src="__STATIC__/index/images/car1.jpg" width="58" height="58" /></a></div>
+                    <div class="name"><a href="#">法颂浪漫梦境50ML 香水女士持久清新淡香 送2ML小样3只</a></div>
+                    <div class="price"><font color="#ff4e00">￥399</font> X1</div>
+                </li>
+                <li>
+                	<div class="img"><a href="#"><img src="__STATIC__/index/images/car2.jpg" width="58" height="58" /></a></div>
+                    <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
+                    <div class="price"><font color="#ff4e00">￥399</font> X1</div>
+                </li>
+                <li>
+                	<div class="img"><a href="#"><img src="__STATIC__/index/images/car2.jpg" width="58" height="58" /></a></div>
+                    <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
+                    <div class="price"><font color="#ff4e00">￥399</font> X1</div>
+                </li>
+            </ul>
+            <div class="price_sum">共计&nbsp; <font color="#ff4e00">￥</font><span>1058</span></div>
+            <div class="price_a"><a href="#">去购物车结算</a></div>
+            <!--End 购物车已登录 End-->
+        </div>
+    </div>
+</div>
+<!--End Header End--> 
+<!--Begin Menu Begin-->
+{include file="public/leftnav"}
+<!--End Menu End-->
+<div class="i_bg">  
+    <div class="content mar_20">
+    	<img src="__STATIC__/index/images/img2.jpg" />        
+    </div>
+    
+    <!--Begin 第二步：确认订单信息 Begin -->
+    <div class="content mar_20">
+        <form id='confirmOrder' action="{:url('Order/confirmOrder')}" method="post">
+            <input type='hidden' name='goods_id' value="{$goods_id}">
+    	<div class="two_bg">
+        	<div class="two_t">
+            	<span class="fr"><a href="{:url('Cart/lists')}">修改</a></span>商品列表
+            </div>
+            <table border="0" class="car_tab" style="width:1110px;" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="car_th" width="550">商品名称</td>
+                <td class="car_th" width="150">购买数量</td>
+                <td class="car_th" width="130">小计</td> 
+              </tr>
+              {volist name="goods" id="v" key="k"}
+              <tr {if $k%2==0} class="car_tr" {/if}>
+                  
+                <td>
+                    <div class="c_s_img"><img src="__UPLOAD__{$v.goods_img}" width="73" height="73" /></div>
+                    {$v.goods_name}
+                </td>
+                <td align="center">{$v.buy_number}</td>
+                <td align="center" style="color:#ff4e00;">￥{$v.goods_price} * {$v.buy_number}</td>
+              </tr>
+              {/volist}
+              <tr>
+                <td colspan="5" align="right" style="font-family:'Microsoft YaHei';">
+                    商品总价：￥{$total}
+                </td>
+              </tr>
+            </table>
+            
+            <div class="two_t">
+                <span class="fr"><a href="{:url('Member/address',['goods_id'=>$goods_id])}">修改</a></span>收货人信息
+            </div>
+            <table border="0" class="peo_tab" style="width:1110px;" cellspacing="0" cellpadding="0">
+              {volist name="addresslist" id="v"}  
+              <tr>
+                  <td colspan="4"><input type="radio" name="address" value="{$v.address_id}" {if $v.is_default==1} checked {/if} />{$v.province} {$v.city} {$v.district}{$v.address} {$v.consignee}(收) {$v.mobile}</td>
+              </tr>
+              {/volist}
+            </table>
+            
+            <div class="two_t">
+            	配送方式
+            </div>
+            <table border="0" class="car_tab" style="width:1110px;" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="car_th" width="80"></td>
+                <td class="car_th" width="200">名称</td>
+                <td class="car_th" width="370">订购描述</td>
+                <td class="car_th" width="150">费用</td>
+                <td class="car_th" width="135">免费额度</td>
+                <td class="car_th" width="175">保价费用</td>
+              </tr>
+              <tr>
+              	<td align="center"><input type="radio" name="shipping_id" checked="checked" value="1" /></td>
+                <td align="center" style="font-size:14px;"><b>申通快递</b></td>
+                <td>江、浙、沪地区首重为15元/KG，其他地区18元/KG，续重均为5-6元/KG， 云南地区为8元</td>
+                <td align="center">￥15.00</td>
+                <td align="center">￥0.00</td>
+                <td align="center">不支持保价</td>
+              </tr>
+              <tr>
+              	<td align="center"><input type="radio" name="shipping_id" value="2" /></td>
+                <td align="center" style="font-size:14px;"><b>城际快递</b></td>
+                <td>运费固定</td>
+                <td align="center">￥15.00</td>
+                <td align="center">￥0.00</td>
+                <td align="center">不支持保价</td>
+              </tr>
+              <tr>
+              	<td align="center"><input type="radio" name="shipping_id"  value="3" /></td>
+                <td align="center" style="font-size:14px;"><b>邮局平邮</b></td>
+                <td>运费固定</td>
+                <td align="center">￥15.00</td>
+                <td align="center">￥0.00</td>
+                <td align="center">不支持保价</td>
+              </tr>
+              <tr>
+              	<td colspan="6">
+                	<span class="fr"><label class="r_rad"><input type="checkbox" name="baojia" /></label><label class="r_txt">配送是否需要保价</label></span>
+                </td>
+              </tr>
+            </table> 
+            
+            <div class="two_t">
+            	支付方式
+            </div>
+            <ul class="pay">
+                <input id="pay_id" type="hidden" value="4" name="pay_id">
+                <li value="1">余额支付<div class="ch_img"></div></li>
+                <li value="2">银行亏款/转账<div class="ch_img"></div></li>
+                <li value="3">货到付款<div class="ch_img"></div></li>
+                <li value="4" class="checked">支付宝<div class="ch_img"></div></li>
+            </ul>
+ 
+            <div class="two_t">
+            	其他信息
+            </div>
+            <table border="0" class="car_tab" style="width:1110px;" cellspacing="0" cellpadding="0">
+<!--              <tr>
+                <td width="145" align="right" style="padding-right:0;"><b style="font-size:14px;">使用红包：</b></td>
+                <td>
+                	<span class="fl" style="margin-left:50px; margin-right:10px;">选择已有红包</span>
+                    <select class="jj" name="city">
+                      <option value="0" selected="selected">请选择</option>
+                      <option value="1">50元</option>
+                      <option value="2">30元</option>
+                      <option value="3">20元</option>
+                      <option value="4">10元</option>
+                    </select>
+                    <span class="fl" style="margin-left:50px; margin-right:10px;">或者输入红包序列号</span>
+                    <span class="fl"><input type="text" value="" class="c_ipt" style="width:220px;" />
+                    <span class="fr" style="margin-left:10px;"><input type="submit" value="验证红包" class="btn_tj" /></span>
+                </td>
+			  </tr>-->
+              <tr valign="top">
+                <td align="right" style="padding-right:0;"><b style="font-size:14px;">订单附言：</b></td>
+                <td style="padding-left:0;"><textarea name="postscript" class="add_txt" style="width:860px; height:50px;"></textarea></td>
+              </tr>
+<!--              <tr>
+              	<td align="right" style="padding-right:0;"><b style="font-size:14px;">缺货处理：</b></td>
+                <td>
+                	<label class="r_rad"><input type="checkbox" name="none" checked="checked" /></label><label class="r_txt" style="margin-right:50px;">等待所有商品备齐后再发</label>
+                    <label class="r_rad"><input type="checkbox" name="none" /></label><label class="r_txt" style="margin-right:50px;">取下订单</label>
+                    <label class="r_rad"><input type="checkbox" name="none" /></label><label class="r_txt" style="margin-right:50px;">与店主协商</label>
+                </td>
+              </tr>-->
+            </table>
+            
+            <table border="0" style="width:900px; margin-top:20px;" cellspacing="0" cellpadding="0">
+<!--              <tr>
+                <td align="right">
+                	该订单完成后，您将获得 <font color="#ff4e00">1815</font> 积分 ，以及价值 <font color="#ff4e00">￥0.00</font> 的红包 <br />
+                    商品总价: <font color="#ff4e00">￥1815.00</font>  + 配送费用: <font color="#ff4e00">￥15.00</font>
+                </td>
+              </tr>-->
+              <tr height="70">
+                <td align="right">
+                	<b style="font-size:14px;">应付款金额：<span style="font-size:22px; color:#ff4e00;">￥{$total}</span></b>
+                </td>
+              </tr>
+              <tr height="70">
+                <td align="right"><a href="javascript:void(0)" class='confirmorder'><img src="__STATIC__/index/images/btn_sure.gif" /></a></td>
+              </tr>
+            </table>
+        </div>
+            </form>
+    </div>
+	<!--End 第二步：确认订单信息 End-->
+        
+        <script>
+            jQuery('.pay li').click(function(){
+                jQuery(this).addClass('checked').siblings().removeClass('checked');
+                jQuery('#pay_id').val(jQuery(this).val());
+            });
+            
+            jQuery('.confirmorder').click(function(){
+                jQuery('#confirmOrder').submit();
+            });
+        </script>
+   

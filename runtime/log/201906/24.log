@@ -1,0 +1,2881 @@
+---------------------------------------------------------------
+[2019-06-24T14:14:47+08:00] 127.0.0.1 GET www.19.com/
+[运行时间：0.676039s] [吞吐率：1.48req/s] [内存消耗：2,907.52kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\index\index.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'hot_data',
+  3 => 'first_cate',
+  4 => 'second_cate',
+  5 => 'goods',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1  AND `is_nav_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_hot` = 1  AND `is_up` = 1 LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:14:47+08:00] 127.0.0.1 GET www.19.com/static/index/images/line.gif
+[运行时间：0.079005s] [吞吐率：12.66req/s] [内存消耗：1,564.67kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/css/style.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/line_gif' => '',
+  'images' => 'line.gif',
+)
+---------------------------------------------------------------
+[2019-06-24T14:14:50+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.546031s] [吞吐率：1.83req/s] [内存消耗：2,925.16kb] [文件加载：90]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061003s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.080004s ]
+---------------------------------------------------------------
+[2019-06-24T14:17:01+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.220013s] [吞吐率：4.55req/s] [内存消耗：3,171.76kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:18:21+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.111007s] [吞吐率：9.01req/s] [内存消耗：3,171.76kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:19:05+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.140008s] [吞吐率：7.14req/s] [内存消耗：3,171.76kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:26:47+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.122007s] [吞吐率：8.20req/s] [内存消耗：3,172.11kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:26:52+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.109007s] [吞吐率：9.17req/s] [内存消耗：2,656.51kb] [文件加载：77]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => '*/*',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:27:04+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,656.51kb] [文件加载：77]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => '*/*',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:14+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.137008s] [吞吐率：7.30req/s] [内存消耗：3,172.30kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:17+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.075004s] [吞吐率：13.33req/s] [内存消耗：2,656.92kb] [文件加载：77]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:39+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.126007s] [吞吐率：7.94req/s] [内存消耗：3,172.30kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:42+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.094005s] [吞吐率：10.64req/s] [内存消耗：2,656.92kb] [文件加载：77]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:42+08:00] 127.0.0.1 GET www.19.com/login/login.html
+[运行时间：0.082004s] [吞吐率：12.19req/s] [内存消耗：1,692.72kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/login/login_html' => '',
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\login\login.html [ array (
+  0 => 'refer',
+) ]
+---------------------------------------------------------------
+[2019-06-24T14:28:43+08:00] 127.0.0.1 GET www.19.com/static/index/fonts/fontawesome-webfont.woff2?v=4.5.0
+[运行时间：0.078005s] [吞吐率：12.82req/s] [内存消耗：1,565.22kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/login/amazeui.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'origin' => 'http://www.19.com',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/fonts/fontawesome-webfont_woff2' => '',
+  'v' => '4.5.0',
+  'fonts' => 'fontawesome-webfont.woff2',
+)
+---------------------------------------------------------------
+[2019-06-24T14:28:43+08:00] 127.0.0.1 GET www.19.com/static/index/fonts/fontawesome-webfont.woff?v=4.5.0
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：1,565.19kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/login/amazeui.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'origin' => 'http://www.19.com',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/fonts/fontawesome-webfont_woff' => '',
+  'v' => '4.5.0',
+  'fonts' => 'fontawesome-webfont.woff',
+)
+---------------------------------------------------------------
+[2019-06-24T14:28:43+08:00] 127.0.0.1 GET www.19.com/static/index/fonts/fontawesome-webfont.ttf?v=4.5.0
+[运行时间：0.057004s] [吞吐率：17.54req/s] [内存消耗：1,565.18kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/login/amazeui.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'origin' => 'http://www.19.com',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/fonts/fontawesome-webfont_ttf' => '',
+  'v' => '4.5.0',
+  'fonts' => 'fontawesome-webfont.ttf',
+)
+---------------------------------------------------------------
+[2019-06-24T14:28:55+08:00] 127.0.0.1 POST www.19.com/login/dologin.html
+[运行时间：0.249014s] [吞吐率：4.02req/s] [内存消耗：2,580.26kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/login/dologin_html' => '',
+  'name' => '1309755315@qq.com',
+  'pwd' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_user` WHERE  `user_email` = '1309755315@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `shop_user`  SET `user_id` = 3 , `user_email` = '1309755315@qq.com' , `user_tel` = '13661157166' , `user_code` = NULL , `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' , `error_num` = 0 , `last_error_time` = 0 , `create_time` = NULL , `update_time` = NULL  WHERE  `user_id` = 3 [ RunTime:0.057003s ]
+[ sql ] [ SQL ] UPDATE `shop_user`  SET `user_id` = 3 , `user_email` = '1309755315@qq.com' , `user_tel` = '13661157166' , `user_code` = NULL , `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' , `error_num` = 0 , `last_error_time` = 0 , `create_time` = NULL , `update_time` = NULL  WHERE  `user_id` = 3 [ RunTime:0.049003s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:57+08:00] 127.0.0.1 GET www.19.com/index/index.html
+[运行时间：0.129008s] [吞吐率：7.75req/s] [内存消耗：2,909.94kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\index\index.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'hot_data',
+  3 => 'first_cate',
+  4 => 'second_cate',
+  5 => 'goods',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1  AND `is_nav_show` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_hot` = 1  AND `is_up` = 1 LIMIT 15 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[2019-06-24T14:28:57+08:00] 127.0.0.1 GET www.19.com/static/index/images/line.gif
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：1,564.67kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/css/style.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/line_gif' => '',
+  'images' => 'line.gif',
+)
+---------------------------------------------------------------
+[2019-06-24T14:29:00+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.203011s] [吞吐率：4.93req/s] [内存消耗：3,183.72kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,2,10,1,5) ORDER BY field(`goods_id`,15,2,10,1,5) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:29:02+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.098005s] [吞吐率：10.20req/s] [内存消耗：2,662.90kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:31:37+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.070004s] [吞吐率：14.28req/s] [内存消耗：2,663.14kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:31:51+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.084004s] [吞吐率：11.90req/s] [内存消耗：2,663.14kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:31:57+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.153008s] [吞吐率：6.54req/s] [内存消耗：2,941.31kb] [文件加载：90]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,2,10,1,5) ORDER BY field(`goods_id`,15,2,10,1,5) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:32:00+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.081004s] [吞吐率：12.35req/s] [内存消耗：2,663.14kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:32:22+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.153009s] [吞吐率：6.54req/s] [内存消耗：2,721.03kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ error ] [8]Array to string conversion[D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\controller\Member.php:89]
+---------------------------------------------------------------
+[2019-06-24T14:33:01+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.128007s] [吞吐率：7.81req/s] [内存消耗：2,665.49kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:37:01+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.146008s] [吞吐率：6.85req/s] [内存消耗：2,941.31kb] [文件加载：90]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,2,10,1,5) ORDER BY field(`goods_id`,15,2,10,1,5) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:37:03+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：2,672.81kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 1  AND `user_id` = 3 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:39:17+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.142008s] [吞吐率：7.04req/s] [内存消耗：2,640.70kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 2  AND `user_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `shop_collect` (`goods_id` , `user_id` , `c_time`) VALUES (2 , 3 , 1561358357) [ RunTime:0.028002s ]
+---------------------------------------------------------------
+[2019-06-24T14:40:22+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.096005s] [吞吐率：10.42req/s] [内存消耗：2,667.48kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 2  AND `user_id` = 3 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:40:27+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.071004s] [吞吐率：14.08req/s] [内存消耗：2,635.41kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 1  AND `user_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `shop_collect` (`goods_id` , `user_id` , `c_time`) VALUES (1 , 3 , 1561358427) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:42:10+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.168009s] [吞吐率：5.95req/s] [内存消耗：3,184.19kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,2,10,1,5) ORDER BY field(`goods_id`,15,2,10,1,5) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:42:18+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,667.48kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 2  AND `user_id` = 3 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:42:22+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.080004s] [吞吐率：12.50req/s] [内存消耗：2,667.48kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 1  AND `user_id` = 3 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:42:24+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.089006s] [吞吐率：11.24req/s] [内存消耗：2,635.41kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 4  AND `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `shop_collect` (`goods_id` , `user_id` , `c_time`) VALUES (4 , 3 , 1561358544) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:42:51+08:00] 127.0.0.1 GET www.19.com/lists/index/cid/1.html
+[运行时间：0.132007s] [吞吐率：7.58req/s] [内存消耗：3,184.19kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/lists/index/cid/1_html' => '',
+  'cid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\lists\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'cid',
+  3 => 'query',
+  4 => 'history',
+  5 => 'goods',
+  6 => 'pricestr',
+  7 => 'brand',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (4,5,6,8,1,2,3)  AND `is_show` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT max(goods_price) as price FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  ( `cate_id` IN (1,6,8,9,10,7,11,12) AND `is_up` = 1 ) ORDER BY `goods_id` ASC LIMIT 0,8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3 ORDER BY `time` DESC LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `goods_img`,`goods_price`,`goods_name`,`goods_id` FROM `shop_goods` WHERE  `goods_id` IN (15,2,10,1,5) ORDER BY field(`goods_id`,15,2,10,1,5) [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[2019-06-24T14:42:53+08:00] 127.0.0.1 POST www.19.com/member/addcollect.html
+[运行时间：0.093005s] [吞吐率：10.75req/s] [内存消耗：2,635.41kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/addcollect_html' => '',
+  'goods_id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `goods_id` = 5  AND `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `shop_collect` (`goods_id` , `user_id` , `c_time`) VALUES (5 , 3 , 1561358573) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:43:00+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.081005s] [吞吐率：12.34req/s] [内存消耗：2,716.06kb] [文件加载：81]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:45:08+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.078004s] [吞吐率：12.82req/s] [内存消耗：2,668.21kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:46:33+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.093006s] [吞吐率：10.75req/s] [内存消耗：2,670.12kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T14:47:33+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.102005s] [吞吐率：9.80req/s] [内存消耗：2,720.60kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_collect` WHERE  `user_id` = 3 LIMIT 0,8 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T14:48:06+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.116007s] [吞吐率：8.62req/s] [内存消耗：2,720.98kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_collect` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:06:54+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.142008s] [吞吐率：7.04req/s] [内存消耗：2,779.16kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collect.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:07:15+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.113006s] [吞吐率：8.85req/s] [内存消耗：2,779.16kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'collect.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:07:30+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：2,779.17kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop_goods.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:08:59+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.097005s] [吞吐率：10.31req/s] [内存消耗：2,779.55kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.007000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:10:30+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.099005s] [吞吐率：10.10req/s] [内存消耗：2,735.55kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:10:33+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.108007s] [吞吐率：9.26req/s] [内存消耗：2,735.55kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.011000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:10:51+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.098006s] [吞吐率：10.20req/s] [内存消耗：2,779.53kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:11:36+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.098005s] [吞吐率：10.20req/s] [内存消耗：2,779.54kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.009000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop_goods.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:12:27+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.102006s] [吞吐率：9.80req/s] [内存消耗：2,779.16kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'collect.goods_id' in 'on clause'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:13:14+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.111006s] [吞吐率：9.01req/s] [内存消耗：2,723.86kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ error ] [0]致命错误: Class 'app\index\controller\Db' not found[D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\controller\Member.php:120]
+---------------------------------------------------------------
+[2019-06-24T15:13:21+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.115007s] [吞吐率：8.70req/s] [内存消耗：2,734.55kb] [文件加载：87]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.collect' doesn't exist[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:13:38+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.093005s] [吞吐率：10.75req/s] [内存消耗：2,722.80kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:15:09+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.116007s] [吞吐率：8.62req/s] [内存消耗：2,771.52kb] [文件加载：87]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'goods_id' in field list is ambiguous[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:15:20+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.097005s] [吞吐率：10.31req/s] [内存消耗：2,771.52kb] [文件加载：87]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'goods_id' in field list is ambiguous[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:15:23+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.103006s] [吞吐率：9.71req/s] [内存消耗：2,771.52kb] [文件加载：87]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'goods_id' in field list is ambiguous[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-24T15:15:36+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：2,716.79kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:19:42+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.094006s] [吞吐率：10.64req/s] [内存消耗：3,021.40kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:20:49+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.098006s] [吞吐率：10.20req/s] [内存消耗：3,021.53kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,8 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:21:07+08:00] 127.0.0.1 GET www.19.com/member/collect.html
+[运行时间：0.110006s] [吞吐率：9.09req/s] [内存消耗：2,852.81kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/lists/index/cid/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:21:10+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=2
+[运行时间：0.082005s] [吞吐率：12.19req/s] [内存消耗：2,852.56kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 2,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:17+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=2
+[运行时间：0.114007s] [吞吐率：8.77req/s] [内存消耗：3,088.59kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 2,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:21+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=1
+[运行时间：0.104006s] [吞吐率：9.61req/s] [内存消耗：2,856.57kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,2 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:23+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=2
+[运行时间：0.097005s] [吞吐率：10.31req/s] [内存消耗：2,856.57kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 2,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:27+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=1
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：2,856.57kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:32+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=2
+[运行时间：0.098006s] [吞吐率：10.20req/s] [内存消耗：2,856.57kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 2,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:34+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=1
+[运行时间：0.093005s] [吞吐率：10.75req/s] [内存消耗：2,856.57kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T15:31:36+08:00] 127.0.0.1 GET www.19.com/member/collect.html?page=2
+[运行时间：0.107006s] [吞吐率：9.35req/s] [内存消耗：2,856.57kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/member/collect.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/collect_html' => '',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\member\collect.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_collect` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`g`.`goods_id`,`goods_name`,`goods_price`,`goods_img` FROM `shop_collect` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 3 ORDER BY `c_time` DESC LIMIT 2,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:20+08:00] 127.0.0.1 GET www.19.com/
+[运行时间：0.126008s] [吞吐率：7.94req/s] [内存消耗：2,908.76kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\index\index.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'hot_data',
+  3 => 'first_cate',
+  4 => 'second_cate',
+  5 => 'goods',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1  AND `is_nav_show` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (1,6,8,9,10,7,11,12) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_hot` = 1  AND `is_up` = 1 LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:20+08:00] 127.0.0.1 GET www.19.com/static/index/images/line.gif
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：1,564.67kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/css/style.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/line_gif' => '',
+  'images' => 'line.gif',
+)
+---------------------------------------------------------------
+[2019-06-24T17:24:23+08:00] 127.0.0.1 GET www.19.com/goods/index/id/1.html
+[运行时间：0.238014s] [吞吐率：4.20req/s] [内存消耗：2,815.68kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/goods/index/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\goods\index.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_up` = 1  AND `goods_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_history` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_history` WHERE  `user_id` = 3  AND `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `shop_history`  SET `time` = 1561368263  WHERE  `h_id` = 6 [ RunTime:0.056003s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:23+08:00] 127.0.0.1 GET www.19.com/static/index/images/loading.gif
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：1,564.68kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/goods/index/id/1.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/loading_gif' => '',
+  'images' => 'loading.gif',
+)
+---------------------------------------------------------------
+[2019-06-24T17:24:23+08:00] 127.0.0.1 GET www.19.com/static/index/images/scrollPicbg.gif
+[运行时间：0.067004s] [吞吐率：14.92req/s] [内存消耗：1,564.71kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/static/index/css/ShopShow.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/scrollPicbg_gif' => '',
+  'images' => 'scrollPicbg.gif',
+)
+---------------------------------------------------------------
+[2019-06-24T17:24:23+08:00] 127.0.0.1 GET www.19.com/static/index/images/loading.gif
+[运行时间：0.055004s] [吞吐率：18.18req/s] [内存消耗：1,564.68kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/goods/index/id/1.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/images/loading_gif' => '',
+  'images' => 'loading.gif',
+)
+---------------------------------------------------------------
+[2019-06-24T17:24:25+08:00] 127.0.0.1 POST www.19.com/cart/addcar.html
+[运行时间：0.130007s] [吞吐率：7.69req/s] [内存消耗：2,678.42kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/goods/index/id/1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '23',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/cart/addcar_html' => '',
+  'buy_number' => '1',
+  'goods_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_up` = 1  AND `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_car` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_car` WHERE  `user_id` = 3  AND `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `shop_car` (`user_id` , `goods_id` , `goods_name` , `goods_price` , `goods_img` , `buy_number` , `c_time`) VALUES (3 , 1 , '华为meta20' , 3000 , '20190523\\6a4b1ff3eefeeb25347c514720f33db9.jpg' , 1 , 1561368265) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:26+08:00] 127.0.0.1 GET www.19.com/cart/lists.html
+[运行时间：0.112007s] [吞吐率：8.93req/s] [内存消耗：2,833.62kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/goods/index/id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/cart/lists_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\cart\lists.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+  3 => 'goods_id',
+  4 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_car` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_car` WHERE  `user_id` = 3 ORDER BY `c_time` DESC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:26+08:00] 127.0.0.1 POST www.19.com/cart/getmoney.html
+[运行时间：0.156008s] [吞吐率：6.41req/s] [内存消耗：2,702.16kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/cart/lists.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/cart/getmoney_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:28+08:00] 127.0.0.1 POST www.19.com/cart/getmoney.html
+[运行时间：0.105006s] [吞吐率：9.52req/s] [内存消耗：2,712.02kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/cart/lists.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => '*/*',
+  'content-length' => '17',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/cart/getmoney_html' => '',
+  'goods_id' => 
+  array (
+    0 => '15',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(goods_price*buy_number) as total FROM shop_car where user_id=3 and goods_id in(15) [ RunTime:0.025002s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:29+08:00] 127.0.0.1 POST www.19.com/cart/checkout.html
+[运行时间：0.060004s] [吞吐率：16.67req/s] [内存消耗：2,705.89kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/cart/lists.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.19.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/cart/checkout_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:29+08:00] 127.0.0.1 GET www.19.com/order/index.html?goods_id=15
+[运行时间：0.204012s] [吞吐率：4.90req/s] [内存消耗：2,863.25kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/cart/lists.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/order/index_html' => '',
+  'goods_id' => '15',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\order\index.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'goods',
+  3 => 'goods_id',
+  4 => 'addresslist',
+  5 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_user_address` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_user_address` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_car` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_car` WHERE  ( `user_id` = 3 AND `goods_id` IN (15) ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_user_address` WHERE  `user_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_region` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 2 LIMIT 1 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 37 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 415 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 37 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 415 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 37 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 415 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 38 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `shop_region` WHERE  `region_id` = 423 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:33+08:00] 127.0.0.1 POST www.19.com/order/confirmorder.html
+[运行时间：0.306018s] [吞吐率：3.27req/s] [内存消耗：2,763.80kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/order/index.html?goods_id=15',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.19.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/order/confirmorder_html' => '',
+  'goods_id' => '15',
+  'address' => '4',
+  'shipping_id' => '1',
+  'pay_id' => '4',
+  'postscript' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_user_address` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_user_address` WHERE  `address_id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_car` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_car` WHERE  ( `user_id` = 3 AND `goods_id` IN (15) ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order_info` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] INSERT INTO `shop_order_info` (`user_id` , `order_sn` , `postscript` , `shipping_id` , `shipping_name` , `pay_id` , `pay_name` , `goods_amount` , `order_amount` , `add_time` , `consignee` , `email` , `country` , `province` , `city` , `district` , `address` , `zipcode` , `tel` , `mobile` , `sign_building` , `best_time`) VALUES (3 , '201906241724331930' , '' , 1 , '申通快递' , 4 , '支付宝' , 888 , 888 , 1561368273 , '小小' , '1309755315@qq.com' , 1 , 2 , 37 , 415 , '东方明珠' , '10000' , '13000000000' , '13000000000' , '东方明珠' , '晚上12:00') [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order_goods` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] INSERT INTO `shop_order_goods` (`goods_id` , `goods_name` , `goods_price` , `buy_number` , `order_id`) VALUES ( 15,'高腰裙',888,1,20 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] DELETE FROM `shop_car` WHERE  ( `user_id` = 3 AND `goods_id` IN (15) ) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:33+08:00] 127.0.0.1 GET www.19.com/order/orderpay/id/20.html
+[运行时间：0.089005s] [吞吐率：11.24req/s] [内存消耗：2,820.76kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/order/index.html?goods_id=15',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/order/orderpay/id/20_html' => '',
+  'id' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\view\order\orderpay.html [ array (
+  0 => 'category',
+  1 => 'nav',
+  2 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 0  AND `is_nav_show` = 1 LIMIT 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order_info` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `order_sn`,`shipping_name`,`pay_name`,`order_amount` FROM `shop_order_info` WHERE  `order_id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-24T17:24:33+08:00] 127.0.0.1 GET www.19.com/static/index//static/index/images/logo.png
+[运行时间：0.062003s] [吞吐率：16.13req/s] [内存消耗：1,564.83kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/order/orderpay/id/20.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/static/index/images/logo_png' => '',
+  'static' => 'index',
+  'images' => 'logo.png',
+)
+---------------------------------------------------------------
+[2019-06-24T17:24:34+08:00] 127.0.0.1 GET www.19.com/static/index//static/index/images/car1.jpg
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,564.83kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/order/orderpay/id/20.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/static/index/images/car1_jpg' => '',
+  'static' => 'index',
+  'images' => 'car1.jpg',
+)
+---------------------------------------------------------------
+[2019-06-24T17:24:34+08:00] 127.0.0.1 GET www.19.com/static/index//static/index/images/car2.jpg
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,564.83kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=iag504b4u276lc6adn193nn0vm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.19.com/order/orderpay/id/20.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.19.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/index/static/index/images/car2_jpg' => '',
+  'static' => 'index',
+  'images' => 'car2.jpg',
+)

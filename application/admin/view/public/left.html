@@ -1,0 +1,42 @@
+<div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+        <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+        <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+            <li class="layui-nav-item layui-nav-itemed">
+                <a class="" href="javascript:;">管理员管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="{:url('admin/create')}">管理员添加</a></dd>
+                    <dd><a href="{:url('admin/index')}">管理员列表</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a class="" href="javascript:;">品牌管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="{:url('Brand/create')}">品牌添加</a></dd>
+                    <dd><a href="{:url('Brand/index')}">品牌列表</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a class="" href="javascript:;">分类管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="{:url('Category/create')}">分类添加</a></dd>
+                    <dd><a href="{:url('Category/index')}">分类列表</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a class="" href="javascript:;">商品管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="{:url('Goods/create')}">商品添加</a></dd>
+                    <dd><a href="{:url('Goods/index')}">商品列表</a></dd>
+                </dl>
+            </li>
+             <li class="layui-nav-item">
+                <a class="" href="javascript:;">评论管理</a>
+                <dl class="layui-nav-child">
+      
+                    <dd><a href="{:url('Comment/index')}">评论列表</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<form class="layui-form"  method="post" id="myform">
+  <input type="hidden" name="admin_id" value="{$admin.admin_id}">
+  <div class="layui-form-item layui-col-md5">
+    <label class="layui-form-label">用户名</label>
+    <div class="layui-input-block">
+      <input type="text" name="admin_name"  value="{$admin.admin_name}"  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+    </div>
+  </div>
+ 
+  <div class="layui-form-item layui-col-md5">
+    <label class="layui-form-label">邮箱</label>
+    <div class="layui-input-block">
+      <input type="text" name="admin_email" value="{$admin.admin_email}"   lay-verify="required" placeholder="请输入邮箱" autocomplete="off" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item layui-col-md5">
+    <label class="layui-form-label">电话</label>
+    <div class="layui-input-block">
+      <input type="text" name="admin_tel"  value="{$admin.admin_tel}"  lay-verify="required" placeholder="请输入电话" autocomplete="off" class="layui-input">
+    </div>
+  </div>
+  
+  <input type="hidden" name="admin_id" value="{$admin.admin_id}">
+  <div class="layui-form-item">
+    <div class="layui-input-block">
+      <button class="layui-btn" lay-submit lay-filter="formDemo">立即修改</button>
+      <button type="reset" class="layui-btn layui-btn-danger">重置</button>
+    </div>
+  </div>
+</form>
+<script>
+    $(function(){
+        //点击表单提交
+        $("#myform").submit(function(){
+            var data=$("#myform").serialize();
+            $.post(
+                "{:url('update')}",
+                data,
+                function(res){
+                    alert(res.font);
+                    if(res.code==1){
+                        location.href="{:url('index')}";
+                    }
+                },
+                'json'
+            );
+            return false;
+        });
+    })
+</script>

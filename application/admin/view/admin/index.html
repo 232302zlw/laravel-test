@@ -1,0 +1,171 @@
+<form action="">
+<link rel="stylesheet" href="/static/page.css">
+<table class="layui-table">
+
+  <colgroup>
+    <col width="150">
+    <col width="200">
+    <col>
+  </colgroup>
+  <caption>
+    <h1>
+
+      <a href="{:url('create')}" class="layui-btn"><i class="layui-icon"></i>添加</a>
+    </h1>
+    <h2>
+      <input type="text" name="admin_name" value="{$admin_name}" id="">
+      <button class="layui-btn layui-btn-warm layui-icon layui-icon-search">搜索</button>
+    </h2>
+  </caption>
+  <thead>
+    <tr>
+      <th>编号</th>
+      <th>用户名</th>
+      <th>邮箱</th>
+      <th>电话</th>
+      <th>最后登录的时间</th>
+      <th>最后登录的地址</th>
+      <th>操作</th>
+    </tr> 
+  </thead>
+  <tbody>
+  {volist name="admins" id="admin"}
+    <tr>
+      <td>{$admin.admin_id}</td>
+      <td>{$admin.admin_name}</td>
+      <td>{$admin.admin_email}</td>
+      <td>{$admin.admin_tel}</td>
+      <td>{$admin.last_login_time}</td>
+      <td>{$admin.last_login_ip}</td>
+      <td> 
+        <a class="layui-btn" href="{:url('edit',['admin_id'=>$admin.admin_id])}"><i class="layui-icon layui-icon-edit"></i>修改</a>
+        |
+       <a delid="{$admin.admin_id}" class="layui-btn layui-btn-danger delete" href="{:url('delete',['admin_id'=>$admin.admin_id])}"><i class="layui-icon layui-icon-delete"></i>删除</a>
+      </td>
+    </tr>
+    {/volist}
+    <tr>
+      <td colspan="7" align="center">{$admins|raw}</td>
+    </tr>
+  </tbody>
+</table>
+</form>
+<!-- <script>
+  // alert($);
+  // 待页面加载完毕再执行该代码
+  $(function(){
+    // ajax删除
+    $('.delete').click(function(){
+      console.log($(this));// 直到我点击的是哪一个删除的连接
+      // alert($(this).attr('delid')); // 添加自定义属性,查找自定义属性值
+      // alert($(this).parents('tr').children().first().text());// 根据节点关系查找id值
+      // 获得要删除的主键id
+      var admin_id=$(this).attr('delid');
+     
+      var data={admin_id:admin_id};
+      // console.log(data);
+      var tr=$(this).parents('tr'); 
+      // ajax
+      confirm('你确定要删除吗?');
+      $.get("{:url('delete')}",data,function(datas){
+        // alert(datas);
+        if(datas==1)
+        {
+          tr.remove();
+          alert('删除成功');
+        }else{
+          alert('删除失败');
+        }
+      }); 
+
+
+      return false;
+    });
+  });
+</script> -->
+<!-- <script>
+  $(function(){
+    $('.delete').click(function(){
+      console.log($(this));
+      var admin_id=$(this).attr('delid');
+      var data={admin_id:admin_id};
+      var tr=$(this).parents('tr');
+      $.get("{:url('delete')}",data,function(datas){
+        if(datas==1)
+        {
+          tr.remove();
+          alert("删除成功");
+        }else{
+          alert("删除失败");
+        }
+      });
+      return false;
+    });
+  });
+</script> -->
+<script>
+  $(function(){
+    $('.delete').click(function(){
+      var res=confirm('是否确认删除');
+      if(res==false)
+      {
+        return false;
+      }
+      console.log($(this));
+      var admin_id=$(this).attr('delid');
+      var data={admin_id:admin_id};
+      var tr=$(this).parents('tr');
+      $.get("{:url('delete')}",data,function(datas){
+        if(datas==1)
+        {
+          tr.remove();
+          alert("删除成功");
+        }else{
+          alert("删除失败");
+        }
+      });
+      return false;
+    });
+  });
+</script>
+<!-- <script>
+  $(function(){
+    $('.delete').click(function(){
+      console.log($(this));
+      var admin_id=$(this).attr('delid');
+      var data={admin_id:admin_id};
+      var tr=$(this).parents('tr');
+      $.get("{:url('delete')}",data,function(datas){
+          if(datas==1)
+          {
+            tr.remove();
+            alert("删除成功");
+          }else{
+            alert("删除失败");
+          }
+      });
+      return false;
+    });
+  });
+
+  $('button').eq(0).click(function(){
+    var admin_name=$('input').eq(0).val();
+    var admin_pwd=$("input").eq(1).val();
+    var admin_email=$('input').eq(2).val();
+    var admin_tel=$('input').eq(3).val();
+    $.post(
+      "{:url('save')}",
+      {admin_name:admin_name,admin_pwd:admin_pwd,admin_email:admin_email,admin_tel,admin_tel},
+      function(res){
+        if(res==1)
+        {
+          alert("添加成功");
+        }else{
+          alert("添加失败");
+        };
+      },
+      
+    );
+    return false;
+  });
+</script> -->

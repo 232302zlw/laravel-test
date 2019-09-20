@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>商品列表</div><hr/>
+        {volist name="goods" id="v"}
+        <p>ID:{$v.goods_id}  name:{$v.goods_name}   图:<img src="__UPLOAD__{$v.goods_img}" width="100">    价格：{$v.goods_price}  <button goods_id="{$v.goods_id}">购买</button></p>
+        {/volist}
+    </body>
+    <script type="text/javascript" src="__STATIC__/index/js/jquery-1.8.2.min.js"></script>
+    <script>
+        $('button').click(function(){
+            var goods_id = $(this).attr('goods_id');
+            
+            $.post("{:url('Exam/addCar')}",{goods_id:goods_id},function(data){
+                if(data.code=='00001'){
+                    alert(data.msg);
+                }
+                if(data.code=='00002'){
+                    location.href="{:url('Login/login')}";
+                }
+                if(data.code=='00000'){
+                    if(confirm('添加成功！是否跳转到购物车列表')){
+                        location.href="{:url('Exam/carlist')}";
+                    }
+                }
+                
+            },'json');
+            
+            
+        });
+        </script>
+</html>

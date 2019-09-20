@@ -1,0 +1,96 @@
+<form action="" id="myform">
+<input type="text" name="goods_name" />
+价格 <input type="text" name="price1">-<input type="text" name="price2">
+品牌 :
+<select name="brand_id">
+    <option value="">--请选择--</option>
+    {volist name='brandInfo' id='v'}
+    <option value="{$v.brand_id}">{$v.brand_name}</option>
+    {/volist}
+</select>
+<input type="button" value="搜索" class="page" p="1">
+</form>
+
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+    <tr>
+        <th>商品id</th>
+        <th>名称</th>
+        <th>价格</th>
+        <th>库存</th>
+        <th>图片</th>
+        <th>相册</th>
+        <th>是否新品</th>
+        <th>是否精品</th>
+        <th>是否热卖</th>
+        <th>是否上架</th>
+        <th>描述</th>
+        <th>分类</th>
+        <th>品牌</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="show">
+        {volist name='goodsInfo' id='v'}
+        <tr>
+            <td>{$v.goods_id}</td>
+            <td>{$v.goods_name}</td>
+            <td>{$v.goods_price}</td>
+            <td>{$v.goods_number}</td>
+            <td><img src="/upload/goods_img/{$v.goods_img}" alt=""></td>
+            <td>
+                {volist name="$v['goods_imgs']" id='val'}
+
+                <img src="/upload/goods_imgs/{$val}" alt="">
+                {/volist}
+            </td>
+            <td>
+                {if $v['is_new']==1}√{else/}×{/if}
+            </td>
+            <td>{$v.is_best}</td>
+            <td>{$v.is_hot}</td>
+            <td>{$v.is_up}</td>
+            <td>{$v.goods_describe}</td>
+            <td>{$v.cate_name}</td>
+            <td>{$v.brand_name}</td>
+            <td>
+                <a href="">删除</a>
+                <a href="{:url('edit')}?goods_id={$v.goods_id}">修改</a>
+            </td>
+        </tr>
+        {/volist}
+
+        <tr>
+            <td colspan="14"> {$str|raw}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<script>
+    $(function(){
+        //分页
+        $(document).on("click",".page",function(){
+            var _this=$(this);
+
+            //获取条件
+            var data=$("#myform").serialize();
+
+            var p=_this.attr('p');//获取页码
+            data=data+"&p="+p;//在原来条件上 拼接页码  并传给控制器
+
+            $.post(
+                "{:url('getGoodsInfo')}",
+                data,
+                function(res){
+                    $("#show").html(res);
+                }
+            );
+        })
+    })
+</script>

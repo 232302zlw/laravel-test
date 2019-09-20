@@ -1,0 +1,183 @@
+---------------------------------------------------------------
+[2019-06-27T15:58:24+08:00] 140.205.118.105 POST 39.96.168.211/alipay/notify
+[ notice ] 支付宝异步通知:123
+---------------------------------------------------------------
+[2019-06-27T15:58:24+08:00] 140.205.118.105 POST 39.96.168.211/alipay/notify
+[ notice ] array (
+  'gmt_create' => '2019-06-27 15:58:13',
+  'charset' => 'UTF-8',
+  'gmt_payment' => '2019-06-27 15:58:23',
+  'notify_time' => '2019-06-27 15:58:24',
+  'subject' => '1901商城',
+  'sign' => 'gLWfVpvOhiHTOr7hz8MZW0PGrIbJMxm4vxpTEDG6LhEmoPdPM4DDPV+gZvalwtSNnyNIUNgvetX9C/VffwEGfTK/RPl7zoTj0wQqRfAqaZifztY6Pc0Zad0KHeEghKAPcY/3e3zi2tqFqcPraQXQo6WyUaA5gkClTXYOw4uwGBhc7n567b+kTtwwyLil3r4ik2p5RnZP9BzEUUr2B1RHDfei9ZF4zwZgDoa+E7ukdF09lW6kEqLYO6AyIQv8vzfkHsG1J7Yb1qzPOva7ZVSFAGzyluYq/gf6ILapzmUdbGRyi17Y1NkNlkeuPZyxl2cAWC2IewHZhKWNY57wUMK0Hw==',
+  'buyer_id' => '2088102177146838',
+  'invoice_amount' => '199.00',
+  'version' => '1.0',
+  'notify_id' => '2019062700222155823046831000330992',
+  'fund_bill_list' => '[{"amount":"199.00","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'out_trade_no' => '201906271557472816',
+  'total_amount' => '199.00',
+  'trade_status' => 'TRADE_SUCCESS',
+  'trade_no' => '2019062722001446831000046794',
+  'auth_app_id' => '2016091900549697',
+  'receipt_amount' => '199.00',
+  'point_amount' => '0.00',
+  'app_id' => '2016091900549697',
+  'buyer_pay_amount' => '199.00',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102176371903',
+)
+---------------------------------------------------------------
+[2019-06-27T15:58:24+08:00] 140.205.118.105 POST 39.96.168.211/alipay/notify
+[运行时间：0.132300s] [吞吐率：7.56req/s] [内存消耗：586.88kb] [文件加载：80]
+[ error ] [0]致命错误: Class 'app\index\controller\AlipayTradeService' not found[/data/wwwroot/default/myshop/application/index/controller/Alipay.php:21]
+---------------------------------------------------------------
+[2019-06-27T16:26:32+08:00] 127.0.0.1 GET www.19.com/
+[运行时间：0.149009s] [吞吐率：6.71req/s] [内存消耗：2,683.17kb] [文件加载：84]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.goods' doesn't exist[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-06-27T16:34:37+08:00] 140.205.118.190 POST 39.96.168.211/alipay/notify
+[ notice ] array (
+  'gmt_create' => '2019-06-27 16:34:29',
+  'charset' => 'UTF-8',
+  'gmt_payment' => '2019-06-27 16:34:36',
+  'notify_time' => '2019-06-27 16:34:37',
+  'subject' => '1901商城',
+  'sign' => 'F+LKDkz2rZoJUmMRrXh4e2tAiIGRGQDzqWR8IufX+wJract2w0Y3r3K2b21leOeMj/HMfxwljolYejjasxcxva3UgjimUMfZPVmJGOmqdqIU/MrSe10ARCd9qzNesDu/A7Q/p/wz4GK4yrdmpmmn9o3wcMFLI/N/WftNu737FeF2yFamJB4EHwetO/8MGQSJcXjAPwyPWhWHy5KNeJXe83gjFUgJRlTfoEW/KR+9NbNdPVC/ym2kpYSzlTTfJyEirO68LYV0xVaWSkKjKVJUytfrwhC+QfSIcCnpdQVwFZbldsDWTs+c24efK3zoSjGQiFRLo5utTJjkjtuvR+S73A==',
+  'buyer_id' => '2088102179019798',
+  'invoice_amount' => '4500.00',
+  'version' => '1.0',
+  'notify_id' => '2019062700222163437019791000336240',
+  'fund_bill_list' => '[{"amount":"4500.00","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'out_trade_no' => '201906271634186749',
+  'total_amount' => '4500.00',
+  'trade_status' => 'TRADE_SUCCESS',
+  'trade_no' => '2019062722001419791000042143',
+  'auth_app_id' => '2016091900549697',
+  'receipt_amount' => '4500.00',
+  'point_amount' => '0.00',
+  'app_id' => '2016091900549697',
+  'buyer_pay_amount' => '4500.00',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102176371903',
+)
+---------------------------------------------------------------
+[2019-06-27T16:34:37+08:00] 140.205.118.190 POST 39.96.168.211/alipay/notify
+[ notice ] 支付宝异步验签通知:1
+---------------------------------------------------------------
+[2019-06-27T16:34:37+08:00] 140.205.118.190 POST 39.96.168.211/alipay/notify
+[运行时间：0.145741s] [吞吐率：6.86req/s] [内存消耗：884.94kb] [文件加载：94]
+[ error ] [8]未定义数组索引: seller_id[/data/wwwroot/default/myshop/application/index/controller/Alipay.php:79]
+---------------------------------------------------------------
+[2019-06-27T16:37:24+08:00] 140.205.118.115 POST 39.96.168.211/alipay/notify
+[ notice ] array (
+  'gmt_create' => '2019-06-27 16:37:15',
+  'charset' => 'UTF-8',
+  'gmt_payment' => '2019-06-27 16:37:23',
+  'notify_time' => '2019-06-27 16:37:23',
+  'subject' => '1901商城',
+  'sign' => 'Vcr2Z+/hu/J82OpaQkHTt01FPQ1BqPMzrSM5SU6XS6gH/kmb8miMrND+RKyyN3XRlvi4+Q99jRsg3Z9P9gU2SevP1lgBtNcUT0xWndyxTwXmx+u0x2NBQCpXV+0hO/uGJEqBcaSeJB0FvC07dJKtxUwJQFIa7MqBZeVy4pymk+jNZdK6HG36rB4H1SDHfJyupXDrMPnJioO8nGzdXREaeQpKbCKKlBLasAdkGV8D4AOb5QhMQQ0h2tkscYnZ6Qdr4SZ/Gx8crpu8uHAktB6QxoRJa6azJ5OsKfDXNoyX/sRlBOwVZZIEWfQxVK+i3cBap0RIWVdkKB5YdEJvEOzrXQ==',
+  'buyer_id' => '2088102178909690',
+  'invoice_amount' => '1000.00',
+  'version' => '1.0',
+  'notify_id' => '2019062700222163723009691000392278',
+  'fund_bill_list' => '[{"amount":"1000.00","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'out_trade_no' => '201906271637092711',
+  'total_amount' => '1000.00',
+  'trade_status' => 'TRADE_SUCCESS',
+  'trade_no' => '2019062722001409691000074293',
+  'auth_app_id' => '2016091900549697',
+  'receipt_amount' => '1000.00',
+  'point_amount' => '0.00',
+  'app_id' => '2016091900549697',
+  'buyer_pay_amount' => '1000.00',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102176371903',
+)
+---------------------------------------------------------------
+[2019-06-27T16:37:24+08:00] 140.205.118.115 POST 39.96.168.211/alipay/notify
+[ notice ] 支付宝异步验签通知:1
+---------------------------------------------------------------
+[2019-06-27T16:40:37+08:00] 140.205.118.224 POST 39.96.168.211/alipay/notify
+[ notice ] array (
+  'gmt_create' => '2019-06-27 16:40:26',
+  'charset' => 'UTF-8',
+  'gmt_payment' => '2019-06-27 16:40:36',
+  'notify_time' => '2019-06-27 16:40:37',
+  'subject' => '1901商城',
+  'sign' => 'lTYALkDSpO8NaM20HCiG2iAAsmfIkMPfgDW7FtGarGCBkhzNKJFUO5jGz3HYsiMDJgDxvzMv8+NbEGkkSpz5HC9vFiEkZ8rMipY7EtUBX1UpLN+n75QbKuNYvyJxlLi5GR/n8Kl4Y8APccJA3ieNKM3MF1//EMW1lMdJrbBM8rR1/MRLvFr122z9o3mdmaGoIp533AUOyZ60Esslt/kB+EugvhR/KjZ55aQ5Uf7ctbRdoOkEWof24jgPiCurPIo7vWWcX6RtXn3vbVZvNdPCuJZST1zarb4XWahFhcbeL5hd6CU3pCv/RiK6wqLpn5Q7ddsopubljHuSshqojir0Vw==',
+  'buyer_id' => '2088102177146838',
+  'invoice_amount' => '6000.00',
+  'version' => '1.0',
+  'notify_id' => '2019062700222164036046831000334074',
+  'fund_bill_list' => '[{"amount":"6000.00","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'out_trade_no' => '201906271639528117',
+  'total_amount' => '6000.00',
+  'trade_status' => 'TRADE_SUCCESS',
+  'trade_no' => '2019062722001446831000043579',
+  'auth_app_id' => '2016091900549697',
+  'receipt_amount' => '6000.00',
+  'point_amount' => '0.00',
+  'app_id' => '2016091900549697',
+  'buyer_pay_amount' => '6000.00',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102176371903',
+)
+---------------------------------------------------------------
+[2019-06-27T16:40:37+08:00] 140.205.118.224 POST 39.96.168.211/alipay/notify
+[ notice ] 支付宝异步验签通知:1
+---------------------------------------------------------------
+[2019-06-27T16:40:37+08:00] 140.205.118.224 POST 39.96.168.211/alipay/notify
+[ notice ] 支付宝异步通知:订单号：201906271639528117支付宝交易号：2019062722001446831000043579成功
+---------------------------------------------------------------
+[2019-06-28T14:40:32+08:00] 127.0.0.1 GET www.19.com/goods/index/id/2.html
+[运行时间：0.229013s] [吞吐率：4.37req/s] [内存消耗：3,138.83kb] [文件加载：89]
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting ',' or ';'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\runtime\temp\9053164cc143aafaeb7c615a069b0749.php:618]
+---------------------------------------------------------------
+[2019-06-28T15:17:35+08:00] 127.0.0.1 POST www.19.com/goods/addcomment.html
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：1,588.68kb] [文件加载：65]
+[ error ] [4]语法错误: unexpected '?'[D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\index\controller\Goods.php:125]
+---------------------------------------------------------------
+[2019-06-28T15:26:03+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/index.html
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：1,611.22kb] [文件加载：68]
+[ error ] [64]Cannot declare class app\admin\controller\Comment because the name is already in use[D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\admin\controller\Comment.php:9]
+---------------------------------------------------------------
+[2019-06-28T15:27:07+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/index.html
+[运行时间：0.143008s] [吞吐率：6.99req/s] [内存消耗：2,688.30kb] [文件加载：85]
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\admin\view\comment\index.html[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[2019-06-28T15:28:05+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/index.html
+[运行时间：0.178011s] [吞吐率：5.62req/s] [内存消耗：2,877.16kb] [文件加载：91]
+[ error ] [8]未定义变量: brandInfo[D:\phpStudy\PHPTutorial\WWW\1901\myshop\runtime\temp\39667e62cf007947c08d99598e61569e.php:112]
+---------------------------------------------------------------
+[2019-06-28T15:32:27+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/index.html
+[运行时间：0.094005s] [吞吐率：10.64req/s] [内存消耗：2,877.15kb] [文件加载：91]
+[ error ] [8]未定义变量: str[D:\phpStudy\PHPTutorial\WWW\1901\myshop\runtime\temp\39667e62cf007947c08d99598e61569e.php:139]
+---------------------------------------------------------------
+[2019-06-28T15:37:02+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/index.html
+[运行时间：0.169010s] [吞吐率：5.92req/s] [内存消耗：2,885.64kb] [文件加载：91]
+[ error ] [0]类的属性不存在:app\index\model\Comment->goods_name[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\model\concern\Attribute.php:555]
+---------------------------------------------------------------
+[2019-06-28T15:50:48+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/show/id/1.html
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,614.59kb] [文件加载：71]
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\1901\myshop\application\admin\view\comment\show.html[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[2019-06-28T16:08:59+08:00] 127.0.0.1 GET www.19.com/goods/index/id/15.html
+[运行时间：0.101005s] [吞吐率：9.90req/s] [内存消耗：2,867.22kb] [文件加载：90]
+[ error ] [0]类的属性不存在:app\index\model\Comment->conent[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\model\concern\Attribute.php:555]
+---------------------------------------------------------------
+[2019-06-28T16:38:33+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/replay/id/1.html?content=sfsdfsdf
+[运行时间：0.120007s] [吞吐率：8.33req/s] [内存消耗：2,606.22kb] [文件加载：85]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 're_content' cannot be null[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-06-28T16:38:57+08:00] 127.0.0.1 GET www.19.com/admin.php/comment/replay/id/1.html?content=sfsdfsdf
+[运行时间：0.079005s] [吞吐率：12.66req/s] [内存消耗：2,608.67kb] [文件加载：86]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 're_content' cannot be null[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-06-28T16:50:53+08:00] 127.0.0.1 GET www.19.com/goods/index/id/15.html
+[运行时间：0.143009s] [吞吐率：6.99req/s] [内存消耗：3,137.64kb] [文件加载：94]
+[ error ] [0]类的属性不存在:app\index\model\Comment->admin_name[D:\phpStudy\PHPTutorial\WWW\1901\myshop\thinkphp\library\think\model\concern\Attribute.php:555]

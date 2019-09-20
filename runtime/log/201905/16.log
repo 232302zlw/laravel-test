@@ -1,0 +1,3877 @@
+---------------------------------------------------------------
+[2019-05-16T10:39:13+08:00] 127.0.0.1 GET www.1901bmyshop.com/
+[运行时间：0.701983s] [吞吐率：1.42req/s] [内存消耗：1,455.27kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T10:39:14+08:00] 127.0.0.1 GET www.1901bmyshop.com/
+[运行时间：0.079278s] [吞吐率：12.61req/s] [内存消耗：1,455.27kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T10:39:19+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php
+[运行时间：0.079135s] [吞吐率：12.64req/s] [内存消耗：1,515.82kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T10:39:24+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.306082s] [吞吐率：3.27req/s] [内存消耗：2,617.93kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012576s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.091885s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.000786s ]
+---------------------------------------------------------------
+[2019-05-16T10:47:56+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.104357s] [吞吐率：9.58req/s] [内存消耗：2,740.96kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003028s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.024473s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.000858s ]
+---------------------------------------------------------------
+[2019-05-16T10:47:56+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.177799s] [吞吐率：5.62req/s] [内存消耗：2,740.96kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004562s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.026816s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.000865s ]
+---------------------------------------------------------------
+[2019-05-16T10:48:09+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.069319s] [吞吐率：14.43req/s] [内存消耗：2,618.18kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.023015s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001631s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001310s ]
+---------------------------------------------------------------
+[2019-05-16T10:49:00+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.092646s] [吞吐率：10.79req/s] [内存消耗：2,740.98kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001799s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.025159s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001400s ]
+---------------------------------------------------------------
+[2019-05-16T10:51:15+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.086555s] [吞吐率：11.55req/s] [内存消耗：2,741.00kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001346s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.023869s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.000974s ]
+---------------------------------------------------------------
+[2019-05-16T10:51:59+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.105706s] [吞吐率：9.46req/s] [内存消耗：2,741.05kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010745s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.030078s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001516s ]
+---------------------------------------------------------------
+[2019-05-16T10:52:00+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.090122s] [吞吐率：11.10req/s] [内存消耗：2,618.27kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001822s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.035958s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001746s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001660s ]
+---------------------------------------------------------------
+[2019-05-16T10:52:00+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.094594s] [吞吐率：10.57req/s] [内存消耗：2,618.27kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001995s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.037426s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001046s ]
+---------------------------------------------------------------
+[2019-05-16T10:52:00+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.089980s] [吞吐率：11.11req/s] [内存消耗：2,618.27kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001978s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029119s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.002987s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.003884s ]
+---------------------------------------------------------------
+[2019-05-16T10:52:21+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.092335s] [吞吐率：10.83req/s] [内存消耗：2,741.09kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001971s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.035848s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001961s ]
+---------------------------------------------------------------
+[2019-05-16T10:54:08+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.090294s] [吞吐率：11.07req/s] [内存消耗：2,741.28kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003268s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.027116s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001561s ]
+---------------------------------------------------------------
+[2019-05-16T10:55:57+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.092055s] [吞吐率：10.86req/s] [内存消耗：2,741.28kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002742s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029733s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[2019-05-16T10:57:29+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.096877s] [吞吐率：10.32req/s] [内存消耗：2,742.41kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002811s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.031503s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001863s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001855s ]
+---------------------------------------------------------------
+[2019-05-16T10:58:58+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.097562s] [吞吐率：10.25req/s] [内存消耗：2,742.41kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002074s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.027732s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001184s ]
+---------------------------------------------------------------
+[2019-05-16T10:59:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.091669s] [吞吐率：10.91req/s] [内存消耗：2,618.63kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013102s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.026968s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001873s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001864s ]
+---------------------------------------------------------------
+[2019-05-16T10:59:41+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.092662s] [吞吐率：10.79req/s] [内存消耗：2,618.63kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001766s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.030443s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001133s ]
+---------------------------------------------------------------
+[2019-05-16T11:17:21+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.107724s] [吞吐率：9.28req/s] [内存消耗：2,751.00kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013306s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029244s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001731s ]
+---------------------------------------------------------------
+[2019-05-16T11:17:26+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.085304s] [吞吐率：11.72req/s] [内存消耗：2,619.22kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002124s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.025873s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001337s ]
+---------------------------------------------------------------
+[2019-05-16T11:20:54+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.109686s] [吞吐率：9.12req/s] [内存消耗：2,751.87kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002927s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.027319s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.002117s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001795s ]
+---------------------------------------------------------------
+[2019-05-16T11:21:13+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.048671s] [吞吐率：20.55req/s] [内存消耗：1,419.66kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '58',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'http://www.nake.com',
+  'field' => 'brand_url',
+  'brand_id' => '2',
+)
+---------------------------------------------------------------
+[2019-05-16T11:23:42+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.096173s] [吞吐率：10.40req/s] [内存消耗：2,620.95kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002844s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.027957s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001401s ]
+---------------------------------------------------------------
+[2019-05-16T11:23:47+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.259160s] [吞吐率：3.86req/s] [内存消耗：2,411.16kb] [文件加载：76]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'adi',
+  'field' => 'brand_name',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011762s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.026900s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_name` = 'adi'  WHERE  `brand_id` = 1 [ RunTime:0.149033s ]
+---------------------------------------------------------------
+[2019-05-16T11:25:11+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.276914s] [吞吐率：3.61req/s] [内存消耗：2,408.89kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'adi',
+  'field' => 'brand_name',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003244s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.026081s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_name` = 'adi'  WHERE  `brand_id` = 1 [ RunTime:0.183634s ]
+---------------------------------------------------------------
+[2019-05-16T11:25:42+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.284609s] [吞吐率：3.51req/s] [内存消耗：2,408.89kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'adi',
+  'field' => 'brand_name',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002254s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.034332s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_name` = 'adi'  WHERE  `brand_id` = 1 [ RunTime:0.179858s ]
+---------------------------------------------------------------
+[2019-05-16T11:25:42+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.201445s] [吞吐率：4.96req/s] [内存消耗：2,752.73kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001447s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.118964s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001226s ]
+---------------------------------------------------------------
+[2019-05-16T11:25:49+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.254541s] [吞吐率：3.93req/s] [内存消耗：2,409.01kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'http://www.adi.com',
+  'field' => 'brand_url',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011979s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.030503s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_url` = 'http://www.adi.com'  WHERE  `brand_id` = 1 [ RunTime:0.163618s ]
+---------------------------------------------------------------
+[2019-05-16T11:27:13+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.102615s] [吞吐率：9.75req/s] [内存消耗：2,624.95kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011844s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028026s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001883s ]
+---------------------------------------------------------------
+[2019-05-16T11:27:25+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.267543s] [吞吐率：3.74req/s] [内存消耗：2,408.90kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'adidas',
+  'field' => 'brand_name',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010738s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028129s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_name` = 'adidas'  WHERE  `brand_id` = 1 [ RunTime:0.172027s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:07+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.092774s] [吞吐率：10.78req/s] [内存消耗：2,752.85kb] [文件加载：84]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001943s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029792s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001371s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:15+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.117953s] [吞吐率：8.48req/s] [内存消耗：2,409.04kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '59',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'http://www.adida.com',
+  'field' => 'brand_url',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.031012s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_url` = 'http://www.adida.com'  WHERE  `brand_id` = 1 [ RunTime:0.044034s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:21+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.185632s] [吞吐率：5.39req/s] [内存消耗：2,409.04kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '60',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'http://www.adidas.com',
+  'field' => 'brand_url',
+  'brand_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011592s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.030500s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_url` = 'http://www.adidas.com'  WHERE  `brand_id` = 1 [ RunTime:0.055725s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:32+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.085285s] [吞吐率：11.73req/s] [内存消耗：2,625.07kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002272s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028534s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001536s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:33+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.079869s] [吞吐率：12.52req/s] [内存消耗：2,625.07kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002188s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.026771s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.002053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.003073s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:33+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.086653s] [吞吐率：11.54req/s] [内存消耗：2,625.07kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003575s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029564s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001469s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:34+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.098616s] [吞吐率：10.14req/s] [内存消耗：2,625.07kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012279s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.025998s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001257s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:34+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.096464s] [吞吐率：10.37req/s] [内存消耗：2,625.07kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012481s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029470s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001256s ]
+---------------------------------------------------------------
+[2019-05-16T11:28:40+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/getbrandinfo.html
+[运行时间：0.184842s] [吞吐率：5.41req/s] [内存消耗：2,515.64kb] [文件加载：79]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'p' => '3',
+  'brand_name' => '',
+  'brand_url' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\table.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011409s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028973s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 6,3 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001872s ]
+---------------------------------------------------------------
+[2019-05-16T11:29:23+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/brand/index.html
+[运行时间：0.082344s] [吞吐率：12.14req/s] [内存消耗：2,625.07kb] [文件加载：82]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\index.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002276s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.025852s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 0,3 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001389s ]
+---------------------------------------------------------------
+[2019-05-16T11:29:26+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/getbrandinfo.html
+[运行时间：0.080768s] [吞吐率：12.38req/s] [内存消耗：2,631.01kb] [文件加载：81]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'p' => '3',
+  'brand_name' => '',
+  'brand_url' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\table.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002321s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028409s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 6,3 [ RunTime:0.002368s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001806s ]
+---------------------------------------------------------------
+[2019-05-16T11:29:31+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.150663s] [吞吐率：6.64req/s] [内存消耗：2,408.88kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => 'op',
+  'field' => 'brand_name',
+  'brand_id' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002095s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.024784s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_name` = 'op'  WHERE  `brand_id` = 7 [ RunTime:0.046949s ]
+---------------------------------------------------------------
+[2019-05-16T11:29:47+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/getbrandinfo.html
+[运行时间：0.068332s] [吞吐率：14.63req/s] [内存消耗：2,515.95kb] [文件加载：79]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'p' => '2',
+  'brand_name' => '',
+  'brand_url' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\brand\table.html [ array (
+  0 => 'brandInfo',
+  1 => 'str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001507s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.024523s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` LIMIT 3,3 [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_brand` [ RunTime:0.001424s ]
+---------------------------------------------------------------
+[2019-05-16T11:29:57+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/brand/changevalue.html
+[运行时间：0.219888s] [吞吐率：4.55req/s] [内存消耗：2,408.91kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '53',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'value' => '华为1',
+  'field' => 'brand_name',
+  'brand_id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028063s ]
+[ sql ] [ SQL ] UPDATE `shop_brand`  SET `brand_name` = '华为1'  WHERE  `brand_id` = 4 [ RunTime:0.129339s ]
+---------------------------------------------------------------
+[2019-05-16T15:54:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/admin/create.html
+[运行时间：0.147226s] [吞吐率：6.79req/s] [内存消耗：1,527.42kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/brand/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T15:54:15+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/admin/save.html
+[运行时间：0.294421s] [吞吐率：3.40req/s] [内存消耗：2,536.87kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '78',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'root',
+  'admin_pwd' => 'root',
+  'admin_email' => '1234@qq.com',
+  'admin_tel' => '13898909897',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002630s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.049031s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` = 'root' [ RunTime:0.001025s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('root' , '63a9f0ea7bb98050796b649e85481845' , '1234@qq.com' , '13898909897') [ RunTime:0.050945s ]
+---------------------------------------------------------------
+[2019-05-16T15:54:17+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/admin/index.html
+[运行时间：0.270576s] [吞吐率：3.70req/s] [内存消耗：2,789.34kb] [文件加载：85]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/admin/create.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002172s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.026938s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.002600s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.002386s ]
+---------------------------------------------------------------
+[2019-05-16T15:54:19+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/admin/create.html
+[运行时间：0.032017s] [吞吐率：31.23req/s] [内存消耗：1,527.58kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T15:54:35+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/admin/save.html
+[运行时间：0.221216s] [吞吐率：4.52req/s] [内存消耗：2,537.04kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '84',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'admin_email' => 'admin@qq.com',
+  'admin_tel' => '15898987896',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001581s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.025998s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` = 'admin' [ RunTime:0.002324s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('admin' , '0192023a7bbd73250516f069df18b500' , 'admin@qq.com' , '15898987896') [ RunTime:0.001377s ]
+---------------------------------------------------------------
+[2019-05-16T15:54:37+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/admin/index.html
+[运行时间：0.095768s] [吞吐率：10.44req/s] [内存消耗：2,663.01kb] [文件加载：83]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/admin/create.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004932s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.035907s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.001268s ]
+---------------------------------------------------------------
+[2019-05-16T16:02:44+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/admin/index.html
+[运行时间：0.079399s] [吞吐率：12.59req/s] [内存消耗：2,663.20kb] [文件加载：83]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/admin/create.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.025110s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[2019-05-16T16:02:50+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.292972s] [吞吐率：3.41req/s] [内存消耗：1,605.05kb] [文件加载：71]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+[ error ] [0]致命错误: Call to undefined function captcha_src()[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\runtime\temp\7f14e6387b08c67a8c83bc5bf34651cb.php:51]
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.038021s] [吞吐率：26.30req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/css/normalize.css
+[运行时间：0.142063s] [吞吐率：7.04req/s] [内存消耗：1,480.74kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'css' => 'normalize.css',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/EasePack.min.js
+[运行时间：0.043666s] [吞吐率：22.90req/s] [内存消耗：1,480.73kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'EasePack.min.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/jquery-3.2.1.min.js
+[运行时间：0.069481s] [吞吐率：14.39req/s] [内存消耗：1,480.08kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/rAF.js
+[运行时间：0.040506s] [吞吐率：24.69req/s] [内存消耗：1,480.70kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'rAF.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/demo-1.js
+[运行时间：0.045058s] [吞吐率：22.19req/s] [内存消耗：1,480.73kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'demo-1.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/Longin.js
+[运行时间：0.046757s] [吞吐率：21.39req/s] [内存消耗：1,480.73kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'Longin.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/css/demo.css
+[运行时间：0.043409s] [吞吐率：23.04req/s] [内存消耗：1,480.74kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'css' => 'demo.css',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/css/component.css
+[运行时间：0.125010s] [吞吐率：8.00req/s] [内存消耗：1,480.74kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'css' => 'component.css',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/TweenLite.min.js
+[运行时间：0.151799s] [吞吐率：6.59req/s] [内存消耗：1,480.77kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'TweenLite.min.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/layui/css/layui.css
+[运行时间：0.077265s] [吞吐率：12.94req/s] [内存消耗：1,480.63kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'layui' => 'css',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/layui/layui.js
+[运行时间：0.042457s] [吞吐率：23.55req/s] [内存消耗：1,480.62kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'layui' => 'layui.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/TweenLite.min.js
+[运行时间：0.045753s] [吞吐率：21.86req/s] [内存消耗：1,480.77kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'TweenLite.min.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:03+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/EasePack.min.js
+[运行时间：0.038294s] [吞吐率：26.11req/s] [内存消耗：1,480.73kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'EasePack.min.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:03+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/jquery-3.2.1.min.js
+[运行时间：0.036710s] [吞吐率：27.24req/s] [内存消耗：1,480.08kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:03+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/rAF.js
+[运行时间：0.031223s] [吞吐率：32.03req/s] [内存消耗：1,480.70kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'rAF.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:03+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/demo-1.js
+[运行时间：0.041061s] [吞吐率：24.35req/s] [内存消耗：1,480.73kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'demo-1.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:03+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/__STATIC__/admin/login/js/Longin.js
+[运行时间：0.030770s] [吞吐率：32.50req/s] [内存消耗：1,480.73kb] [文件加载：68]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'login',
+  'js' => 'Longin.js',
+)
+---------------------------------------------------------------
+[2019-05-16T16:03:53+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.035551s] [吞吐率：28.13req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:08:55+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.108342s] [吞吐率：9.23req/s] [内存消耗：1,605.99kb] [文件加载：71]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+[ error ] [0]致命错误: Call to undefined function captcha_src()[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\runtime\temp\7f14e6387b08c67a8c83bc5bf34651cb.php:51]
+---------------------------------------------------------------
+[2019-05-16T16:09:08+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.032520s] [吞吐率：30.75req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:10:05+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.050596s] [吞吐率：19.76req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:10:19+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.061395s] [吞吐率：16.29req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:10:32+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.041835s] [吞吐率：23.90req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:10:55+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.049562s] [吞吐率：20.18req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:01+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.037906s] [吞吐率：26.38req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:07+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.040375s] [吞吐率：24.77req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:19+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.061477s] [吞吐率：16.27req/s] [内存消耗：1,582.16kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:29+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.045722s] [吞吐率：21.87req/s] [内存消耗：1,464.73kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'aaa',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:31+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.030248s] [吞吐率：33.06req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:33+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.033416s] [吞吐率：29.93req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:34+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.053568s] [吞吐率：18.67req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:34+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.047203s] [吞吐率：21.19req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:34+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.045403s] [吞吐率：22.02req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:35+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.043801s] [吞吐率：22.83req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:35+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.045281s] [吞吐率：22.08req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:36+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.044064s] [吞吐率：22.69req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:36+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.044036s] [吞吐率：22.71req/s] [内存消耗：1,464.68kb] [文件加载：65]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:11:44+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.054097s] [吞吐率：18.49req/s] [内存消耗：1,582.80kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T08:12:28+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.151187s] [吞吐率：6.61req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:12:58+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.021745s] [吞吐率：45.99req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:12:58+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.022729s] [吞吐率：44.00req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:12:59+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.024534s] [吞吐率：40.76req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:12:59+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.024795s] [吞吐率：40.33req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:14:13+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.033628s] [吞吐率：29.74req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:14:13+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.022106s] [吞吐率：45.24req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:14:14+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.026711s] [吞吐率：37.44req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:14:14+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.025198s] [吞吐率：39.69req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T08:14:14+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.039280s] [吞吐率：25.46req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T16:14:59+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.042959s] [吞吐率：23.28req/s] [内存消耗：1,755.55kb] [文件加载：73]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+[ error ] [8192]Non-static method think\Url::build() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:38]
+---------------------------------------------------------------
+[2019-05-16T16:15:00+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.036754s] [吞吐率：27.21req/s] [内存消耗：1,637.60kb] [文件加载：71]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+[ error ] [8192]Non-static method think\Url::build() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:38]
+---------------------------------------------------------------
+[2019-05-16T16:15:00+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.039825s] [吞吐率：25.11req/s] [内存消耗：1,637.60kb] [文件加载：71]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+[ error ] [8192]Non-static method think\Url::build() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:38]
+---------------------------------------------------------------
+[2019-05-16T08:16:21+00:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.019937s] [吞吐率：50.16req/s] [内存消耗：805.83kb] [文件加载：47]
+[ error ] [8192]Non-static method think\Route::get() should not be called statically[E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\vendor\topthink\think-captcha\src\helper.php:12]
+---------------------------------------------------------------
+[2019-05-16T16:18:44+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.043378s] [吞吐率：23.05req/s] [内存消耗：1,658.28kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:18:44+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.075620s] [吞吐率：13.22req/s] [内存消耗：1,165.03kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:19:16+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.103004s] [吞吐率：9.71req/s] [内存消耗：1,776.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:19:16+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.042065s] [吞吐率：23.77req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:19:17+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.067317s] [吞吐率：14.86req/s] [内存消耗：1,658.58kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:19:17+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.075791s] [吞吐率：13.19req/s] [内存消耗：1,658.58kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:19:17+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.036612s] [吞吐率：27.31req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:19:31+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.052331s] [吞吐率：19.11req/s] [内存消耗：1,776.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:19:31+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.041276s] [吞吐率：24.23req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:19:40+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.045342s] [吞吐率：22.05req/s] [内存消耗：1,776.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:19:40+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.036987s] [吞吐率：27.04req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:19:49+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.071655s] [吞吐率：13.96req/s] [内存消耗：1,776.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:19:49+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.027241s] [吞吐率：36.71req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:20:00+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.048816s] [吞吐率：20.49req/s] [内存消耗：1,776.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:20:00+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.035591s] [吞吐率：28.10req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:20:09+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.055141s] [吞吐率：18.14req/s] [内存消耗：1,776.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:20:09+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.030390s] [吞吐率：32.91req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:21:24+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.047140s] [吞吐率：21.21req/s] [内存消耗：1,777.10kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:21:24+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.042024s] [吞吐率：23.80req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:21:30+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/logindo.html
+[运行时间：0.037620s] [吞吐率：26.58req/s] [内存消耗：1,558.69kb] [文件加载：66]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'aaa',
+)
+---------------------------------------------------------------
+[2019-05-16T16:22:45+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.053589s] [吞吐率：18.66req/s] [内存消耗：1,659.36kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:22:45+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.042755s] [吞吐率：23.39req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:26:50+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.049780s] [吞吐率：20.09req/s] [内存消耗：1,777.81kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:26:50+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.039236s] [吞吐率：25.49req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:26:51+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.6327626142650966
+[运行时间：0.042624s] [吞吐率：23.46req/s] [内存消耗：1,166.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.6327626142650966',
+)
+---------------------------------------------------------------
+[2019-05-16T16:26:58+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.6438553976694479
+[运行时间：0.046801s] [吞吐率：21.37req/s] [内存消耗：1,166.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.6438553976694479',
+)
+---------------------------------------------------------------
+[2019-05-16T16:27:04+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.16760860716719672
+[运行时间：0.045247s] [吞吐率：22.10req/s] [内存消耗：1,166.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.16760860716719672',
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:02+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.054583s] [吞吐率：18.32req/s] [内存消耗：1,659.96kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:28:02+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.052304s] [吞吐率：19.12req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:08+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.9571985469259328
+[运行时间：0.045636s] [吞吐率：21.91req/s] [内存消耗：1,166.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.9571985469259328',
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:09+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.5888988040535674
+[运行时间：0.051230s] [吞吐率：19.52req/s] [内存消耗：1,166.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.5888988040535674',
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:10+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.009609678411628186
+[运行时间：0.050078s] [吞吐率：19.97req/s] [内存消耗：1,166.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.009609678411628186',
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:29+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/logindo.html
+[运行时间：0.043684s] [吞吐率：22.89req/s] [内存消耗：1,611.77kb] [文件加载：69]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '45',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'pr7t',
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:35+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.073184s] [吞吐率：13.66req/s] [内存消耗：1,659.96kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:28:35+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.042347s] [吞吐率：23.61req/s] [内存消耗：1,165.23kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:28:45+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/logindo.html
+[运行时间：0.041379s] [吞吐率：24.17req/s] [内存消耗：1,592.17kb] [文件加载：67]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'aaa',
+)
+---------------------------------------------------------------
+[2019-05-16T16:32:26+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.066682s] [吞吐率：15.00req/s] [内存消耗：1,661.30kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:32:26+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.051893s] [吞吐率：19.27req/s] [内存消耗：1,165.38kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:32:36+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/logindo.html
+[运行时间：0.192856s] [吞吐率：5.19req/s] [内存消耗：2,616.54kb] [文件加载：79]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '45',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'xu6t',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005685s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.114078s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` = 'admin'  AND `admin_pwd` = 'admin123' LIMIT 1 [ RunTime:0.003250s ]
+---------------------------------------------------------------
+[2019-05-16T16:33:22+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/login
+[运行时间：0.062029s] [吞吐率：16.12req/s] [内存消耗：1,661.43kb] [文件加载：70]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.1901bmyshop.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+  'admin_pwd' => '',
+  'code' => '',
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-16T16:33:23+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html
+[运行时间：0.051462s] [吞吐率：19.43req/s] [内存消耗：1,165.23kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-16T16:33:31+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/logindo.html
+[运行时间：0.129059s] [吞吐率：7.75req/s] [内存消耗：2,616.60kb] [文件加载：79]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '45',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'wuwq',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003404s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.050771s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` = 'admin'  AND `admin_pwd` = 'admin123' LIMIT 1 [ RunTime:0.005720s ]
+---------------------------------------------------------------
+[2019-05-16T16:34:15+08:00] 127.0.0.1 GET www.1901bmyshop.com/admin.php/captcha.html?num=0.6496356707665163
+[运行时间：0.042687s] [吞吐率：23.43req/s] [内存消耗：1,165.86kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'num' => '0.6496356707665163',
+)
+---------------------------------------------------------------
+[2019-05-16T16:34:20+08:00] 127.0.0.1 POST www.1901bmyshop.com/admin.php/login/logindo.html
+[运行时间：0.103958s] [吞吐率：9.62req/s] [内存消耗：2,618.14kb] [文件加载：79]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\month4\1901b\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rv1pse3gd1juaq7rp2fcvhiv3v',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.1901bmyshop.com/admin.php/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.1901bmyshop.com',
+  'accept' => '*/*',
+  'content-length' => '45',
+  'connection' => 'close',
+  'host' => 'www.1901bmyshop.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin123',
+  'code' => 'b5wh',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001889s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.032825s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` = 'admin'  AND `admin_pwd` = '0192023a7bbd73250516f069df18b500' LIMIT 1 [ RunTime:0.003560s ]

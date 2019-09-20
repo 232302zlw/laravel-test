@@ -1,0 +1,201 @@
+<div class="top">
+    <div class="logo"><a href="Index.html"><img src="__STATIC__/index/images/logo.png" /></a></div>
+    <div class="search">
+    	<form>
+        	<input type="text" value="" class="s_ipt" />
+            <input type="submit" value="搜索" class="s_btn" />
+        </form>                      
+        <span class="fl"><a href="#">咖啡</a><a href="#">iphone 6S</a><a href="#">新鲜美食</a><a href="#">蛋糕</a><a href="#">日用品</a><a href="#">连衣裙</a></span>
+    </div>
+    <div class="i_car">
+    	<div class="car_t">购物车 [ <span>3</span> ]</div>
+        <div class="car_bg">
+       		<!--Begin 购物车未登录 Begin-->
+        	<div class="un_login">还未登录！<a href="Login.html" style="color:#ff4e00;">马上登录</a> 查看购物车！</div>
+            <!--End 购物车未登录 End-->
+            <!--Begin 购物车已登录 Begin-->
+            <ul class="cars">
+            	<li>
+                	<div class="img"><a href="#"><img src="__STATIC__/index/images/car1.jpg" width="58" height="58" /></a></div>
+                    <div class="name"><a href="#">法颂浪漫梦境50ML 香水女士持久清新淡香 送2ML小样3只</a></div>
+                    <div class="price"><font color="#ff4e00">￥399</font> X1</div>
+                </li>
+                <li>
+                	<div class="img"><a href="#"><img src="__STATIC__/index/images/car2.jpg" width="58" height="58" /></a></div>
+                    <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
+                    <div class="price"><font color="#ff4e00">￥399</font> X1</div>
+                </li>
+                <li>
+                	<div class="img"><a href="#"><img src="__STATIC__/index/images/car2.jpg" width="58" height="58" /></a></div>
+                    <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
+                    <div class="price"><font color="#ff4e00">￥399</font> X1</div>
+                </li>
+            </ul>
+            <div class="price_sum">共计&nbsp; <font color="#ff4e00">￥</font><span>1058</span></div>
+            <div class="price_a"><a href="#">去购物车结算</a></div>
+            <!--End 购物车已登录 End-->
+        </div>
+    </div>
+</div>
+<!--End Header End--> 
+<!--Begin Menu Begin-->
+{include file="public/leftnav"}
+<!--End Menu End--> 
+<div class="i_bg">  
+    <div class="content mar_20">
+    	<img src="__STATIC__/index/images/img1.jpg" />        
+    </div>
+    
+    <!--Begin 第一步：查看购物车 Begin -->
+    <div class="content mar_20">
+    	<table border="0" class="car_tab" style="width:1200px; margin-bottom:50px;" cellspacing="0" cellpadding="0">
+          <tr>
+            <th class="car_th" width="70"><input class="all" type="checkbox"/>全<input class="noall" type="checkbox"/>反</th>
+            <th class="car_th" width="490">商品名称</th>
+          
+            <th class="car_th" width="150">购买数量</th>
+            <th class="car_th" width="130">小计</th>
+            <th class="car_th" width="150">操作</th>
+          </tr>
+          {volist name="data" id="v" key="k"}
+          <tr {if $k%2==0} class="car_tr" {/if}>
+              <td>
+                  <input class="goodsbox" type="checkbox" {if (in_array($v.goods_id,$goods_id))} checked="checked" {/if}value="{$v.goods_id}" />
+            </td>
+            <td>
+            	<div class="c_s_img"><img src="__UPLOAD__{$v.goods_img}" width="73" height="73" /></div>
+                {$v.goods_name}
+            </td>
+           
+            <td align="center">
+            	<div class="c_num">
+                    <input type="button" value="" onclick="jianUpdate1(jq(this),{$v.goods_id});" class="car_btn_1" />
+                	<input type="text" goods_id="{$v.goods_id}" value="{$v.buy_number}" name="" class="car_ipt" />  
+                    <input type="button" value="" onclick="addUpdate1(jq(this),{$v.goods_id});" class="car_btn_2" />
+                </div>
+            </td>
+            <td align="center" style="color:#ff4e00;">￥<font>{$v.goods_price}</font></td>
+            <td align="center"><a href="javascript:void(0)" class="del" goods_id="{$v.goods_id}">删除</a>&nbsp; &nbsp;<a href="#">加入收藏</a></td>
+          </tr>
+          {/volist}
+          <tr height="70">
+          	<td colspan="6" style="font-family:'Microsoft YaHei'; border-bottom:0;">
+            	<input type="button" class="del" value="删除">
+                <span class="fr">商品总价：<b style="font-size:22px; color:#ff4e00;">￥<font class="total">{$total}</font></b></span>
+            </td>
+          </tr>
+          <tr valign="top" height="150">
+          	<td colspan="6" align="right">
+            	<a href="/"><img src="__STATIC__/index/images/buy1.gif" /></a>&nbsp; &nbsp; 
+                <a href="javascript:void(0)" onclick="checkout()"><img src="__STATIC__/index/images/buy2.gif" /></a>
+            </td>
+          </tr>
+        </table>
+        
+    </div>
+	<!--End 第一步：查看购物车 End--> 
+    <script>
+       function checkout(){
+           var goods_id = new Array();
+           jQuery('.goodsbox:checked').each(function(){
+               goods_id.push(jQuery(this).val());
+           });
+           
+           if( !goods_id || goods_id==''){
+               alert('请选择购物车内的商品');return;
+           }
+           jQuery.post('{:url("Cart/checkout")}',function(data){
+               if( data==false){
+                   var url = window.location.href+"?goods_id="+goods_id;
+                   location.href="{:url('Login/login')}?refer="+url;
+               }else{
+                   location.href="{:url('Order/index')}?goods_id="+goods_id;
+               }
+           });
+
+           
+       } 
+       
+       jQuery(function(){
+           getMoney();
+       });
+        
+     //全选   
+     jQuery('.all').click(function(){
+       
+         jQuery('td input[type=checkbox]').prop({'checked':jQuery(this).prop('checked')});
+         getMoney();
+     }); 
+     //反选
+     jQuery('.noall').click(function(){
+         jQuery('td input[type=checkbox]').prop('checked',function(i,val){
+            // alert(i);
+             return !val;
+         });
+         getMoney();
+     });
+     //手工选择
+     jQuery('.goodsbox').click(function(){
+         getMoney();
+     }); 
+     //获取总价
+     function getMoney(){
+         //jQuery('.total').text('0.00');
+         var goods_id = new Array();
+         jQuery('td input[type=checkbox]:checked').each(function(){
+             goods_id.push(jQuery(this).val());
+         });
+         if( goods_id ){
+             jQuery.post('{:url("Cart/getMoney")}',{goods_id:goods_id},function(data){
+                 jQuery('.total').text(data);
+             })
+         }
+     }
+     //单删、批删
+     jQuery('.del').click(function(){
+          //ShowDiv_1('MyDiv','fade');
+          //单个
+         var goods_id = jQuery(this).attr('goods_id');
+         //多个
+         if( goods_id==undefined){
+              var goods_id = new Array();
+            jQuery('td input[type=checkbox]:checked').each(function(){
+                goods_id.push(jQuery(this).val());
+            });
+         }
+        if( !goods_id){
+            alert('请选中要删除的记录');return;
+        }
+        if( confirm('确定删除吗？')){
+            jQuery.post('{:url("Cart/delete")}',{goods_id:goods_id},function(data){
+                     alert(data.msg); 
+                    window.location.reload();
+         },'json');
+        }  
+     });
+
+    </script>
+    
+    <!--Begin 弹出层-删除商品 Begin-->
+    <div id="fade" class="black_overlay"></div>
+    <div id="MyDiv" class="white_content">             
+        <div class="white_d">
+            <div class="notice_t">
+                <span class="fr" style="margin-top:10px; cursor:pointer;" onclick="CloseDiv('MyDiv','fade')"><img src="__STATIC__/index/images/close.gif" /></span>
+            </div>
+            <div class="notice_c">
+           		
+                <table border="0" align="center" style="font-size:16px;" cellspacing="0" cellpadding="0">
+                  <tr valign="top">
+                    <td>您确定要把该商品移除购物车吗？</td>
+                  </tr>
+                  <tr height="50" valign="bottom">
+                    <td><a href="#" class="b_sure">确定</a><a href="#" class="b_buy">取消</a></td>
+                  </tr>
+                </table>
+                    
+            </div>
+        </div>
+    </div>    
+    <!--End 弹出层-删除商品 End-->
+   

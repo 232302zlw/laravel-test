@@ -1,0 +1,29 @@
+{volist name='goodsInfo' id='v'}
+<tr>
+    <td>{$v.goods_id}</td>
+    <td>{$v.goods_name}</td>
+    <td>{$v.goods_price}</td>
+    <td>{$v.goods_number}</td>
+    <td><img src="/upload/goods_img/{$v.goods_img}" alt=""></td>
+    <td>
+        {volist name="$v['goods_imgs']" id='val'}
+
+        <img src="/upload/goods_imgs/{$val}" alt="">
+        {/volist}
+    </td>
+    <td>
+        {if $v['is_new']==1}√{else/}×{/if}
+    </td>
+    <td>{$v.is_best}</td>
+    <td>{$v.is_hot}</td>
+    <td>{$v.is_up}</td>
+    <td>{$v.goods_describe}</td>
+    <td>{$v.cate_name}</td>
+    <td>{$v.brand_name}</td>
+    <td><a href="">删除</a></td>
+</tr>
+{/volist}
+
+<tr>
+    <td colspan="14"> {$str|raw}</td>
+</tr>

@@ -1,0 +1,52 @@
+    <div class="menu_bg">
+	<div class="menu">
+    	<!--Begin 商品分类详情 Begin--> 	
+         <div class="nav">
+        	<div class="nav_t">全部商品分类</div>
+            <div class="leftNav{if ( $controller != 'Index') } none{/if}" {if ( $controller != 'Index') } style="display:none"{/if} >
+                    <ul> 
+                    {if($category)}
+                    {foreach $category as $key=>$val}
+                    <li>
+                    	<div class="fj">
+                        	<span class="n_img"><span></span><img src="__STATIC__/index/images/nav2.png" /></span>
+                            <span class="fl"><a href="{:url('Lists/index',['cid'=>$val.cate_id])}">{$val.cate_name}</a></span>
+                        </div>
+                        <div class="zj" style="top:-{php}echo $key*40;{/php}px;">
+                            <div class="zj_l">
+                                {if(isset($val.son))}
+                                {foreach $val.son as $vv}
+                                <div class="zj_l_c">
+                                    <h2><a href="{:url('Lists/index',['cid'=>$vv.cate_id])}">{$vv.cate_name}</a></h2>
+                                    {if(isset($vv.son))}
+                                    {foreach $vv.son as $v}
+                                   
+                                    <a href="{:url('Lists/index',['cid'=>$v.cate_id])}">{$v.cate_name}</a>|
+                                    {/foreach}
+                                    {/if}
+                                </div>
+                                {/foreach}
+                                {/if}
+                            </div>
+                            <div class="zj_r">
+                                <a href="#"><img src="__STATIC__/index/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="__STATIC__/index/images/n_img2.jpg" width="236" height="200" /></a>
+                            </div>
+                        </div>
+                    </li>
+                    {/foreach}
+                    {/if}
+                </ul>
+            </div>
+        </div> 
+<!--End 商品分类详情 End-->                                                     
+    	<ul class="menu_r">  
+            
+            <li><a href="/">首页</a></li>
+            {volist name="nav" id="v"}
+            <li><a href="{:url('Lists/index',['cid'=>$v.cate_id])}">{$v.cate_name}</a></li>
+           {/volist}
+        </ul>
+        <div class="m_ad">中秋送好礼！</div>
+    </div>
+</div>

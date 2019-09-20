@@ -1,0 +1,3096 @@
+---------------------------------------------------------------
+[2019-05-11T08:28:14+08:00] 127.0.0.1 GET www.myshop.com/
+[运行时间：1.043168s] [吞吐率：0.96req/s] [内存消耗：2,130.40kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-11T08:28:23+08:00] 127.0.0.1 GET www.myshop.com/admin.php/
+[运行时间：0.222125s] [吞吐率：4.50req/s] [内存消耗：2,376.61kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:28:26+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.084830s] [吞吐率：11.79req/s] [内存消耗：2,218.40kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:28:28+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.596249s] [吞吐率：1.68req/s] [内存消耗：4,163.74kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011380s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.084565s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.006701s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.001967s ]
+---------------------------------------------------------------
+[2019-05-11T08:28:33+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=2
+[运行时间：0.087768s] [吞吐率：11.39req/s] [内存消耗：3,915.11kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010554s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 2,2 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[2019-05-11T08:28:35+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=3
+[运行时间：0.162167s] [吞吐率：6.17req/s] [内存消耗：3,915.09kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=2',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009747s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.015586s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 4,2 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[2019-05-11T08:28:41+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=a
+[运行时间：0.133199s] [吞吐率：7.51req/s] [内存消耗：3,915.12kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=3',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'a',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002302s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%a%' [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%a%' LIMIT 0,2 [ RunTime:0.000723s ]
+---------------------------------------------------------------
+[2019-05-11T08:28:42+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=a&page=2
+[运行时间：0.076671s] [吞吐率：13.04req/s] [内存消耗：3,915.24kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=a',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'a',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%a%' [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%a%' LIMIT 2,2 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[2019-05-11T08:28:44+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=a&page=1
+[运行时间：0.075644s] [吞吐率：13.22req/s] [内存消耗：3,915.26kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=a&page=2',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'a',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001233s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009723s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%a%' [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%a%' LIMIT 0,2 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[2019-05-11T08:28:47+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=
+[运行时间：0.089720s] [吞吐率：11.15req/s] [内存消耗：3,919.26kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=a&page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001069s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[2019-05-11T08:30:45+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.102965s] [吞吐率：9.71req/s] [内存消耗：2,397.36kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:30:46+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.053933s] [吞吐率：18.54req/s] [内存消耗：2,218.91kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:31:08+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.046653s] [吞吐率：21.43req/s] [内存消耗：2,397.56kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:31:40+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.061984s] [吞吐率：16.13req/s] [内存消耗：2,397.56kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:31:52+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.062111s] [吞吐率：16.10req/s] [内存消耗：2,397.56kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:32:12+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：2,397.56kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:32:18+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.045998s] [吞吐率：21.74req/s] [内存消耗：2,397.56kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:33:23+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.096490s] [吞吐率：10.36req/s] [内存消耗：4,163.80kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001873s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010522s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[2019-05-11T08:33:24+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.116924s] [吞吐率：8.55req/s] [内存消耗：3,915.44kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.007676s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[2019-05-11T08:33:35+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.099867s] [吞吐率：10.01req/s] [内存消耗：4,164.13kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008266s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.001889s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[2019-05-11T08:34:25+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.062377s] [吞吐率：16.03req/s] [内存消耗：2,397.09kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:34:26+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.042652s] [吞吐率：23.45req/s] [内存消耗：2,218.90kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:34:50+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.046406s] [吞吐率：21.55req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:44:28+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.065256s] [吞吐率：15.32req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T08:44:29+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.043783s] [吞吐率：22.84req/s] [内存消耗：2,218.90kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:10:51+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.072374s] [吞吐率：13.82req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:11:04+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.046775s] [吞吐率：21.38req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:11:05+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.049131s] [吞吐率：20.35req/s] [内存消耗：2,218.90kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:11:14+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.073088s] [吞吐率：13.68req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:12:26+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.050452s] [吞吐率：19.82req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:12:43+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.050150s] [吞吐率：19.94req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:14:03+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.076840s] [吞吐率：13.01req/s] [内存消耗：2,397.55kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:14:20+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.099353s] [吞吐率：10.07req/s] [内存消耗：3,915.11kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002921s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009468s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[2019-05-11T09:47:30+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.135135s] [吞吐率：7.40req/s] [内存消耗：4,164.76kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005991s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010417s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.002032s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[2019-05-11T09:47:32+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/delete.html?admin=4
+[运行时间：0.067988s] [吞吐率：14.71req/s] [内存消耗：2,512.38kb] [文件加载：70]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '4',
+)
+---------------------------------------------------------------
+[2019-05-11T09:47:35+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.103594s] [吞吐率：9.65req/s] [内存消耗：3,920.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011923s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008597s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[2019-05-11T09:47:51+08:00] 127.0.0.1 GET www.myshop.com/static/bootstrap.min.css.map
+[运行时间：0.251340s] [吞吐率：3.98req/s] [内存消耗：2,115.67kb] [文件加载：63]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-11T09:47:55+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.108736s] [吞吐率：9.20req/s] [内存消耗：3,920.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001473s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008699s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[2019-05-11T09:47:56+08:00] 127.0.0.1 GET www.myshop.com/static/bootstrap.min.css.map
+[运行时间：0.075876s] [吞吐率：13.18req/s] [内存消耗：2,115.67kb] [文件加载：63]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-11T09:47:58+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/delete.html?admin=4
+[运行时间：0.062536s] [吞吐率：15.99req/s] [内存消耗：2,512.38kb] [文件加载：70]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '4',
+)
+---------------------------------------------------------------
+[2019-05-11T09:49:04+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.106560s] [吞吐率：9.38req/s] [内存消耗：4,164.76kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008396s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[2019-05-11T09:49:04+08:00] 127.0.0.1 GET www.myshop.com/static/bootstrap.min.css.map
+[运行时间：0.062694s] [吞吐率：15.95req/s] [内存消耗：2,115.67kb] [文件加载：63]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-11T09:49:07+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/delete.html?admin_id=4
+[运行时间：0.283830s] [吞吐率：3.52req/s] [内存消耗：3,696.72kb] [文件加载：77]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003821s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009094s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_id` = 4 [ RunTime:0.139731s ]
+[ sql ] [ SQL ] DELETE FROM `shop_admin` WHERE  `admin_id` = 4 [ RunTime:0.037788s ]
+---------------------------------------------------------------
+[2019-05-11T09:49:10+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.134116s] [吞吐率：7.46req/s] [内存消耗：3,920.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.050699s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[2019-05-11T09:49:11+08:00] 127.0.0.1 GET www.myshop.com/static/bootstrap.min.css.map
+[运行时间：0.061309s] [吞吐率：16.31req/s] [内存消耗：2,115.67kb] [文件加载：63]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-11T09:49:19+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.044833s] [吞吐率：22.31req/s] [内存消耗：2,218.45kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:49:46+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.201318s] [吞吐率：4.97req/s] [内存消耗：3,859.22kb] [文件加载：79]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '83',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin',
+  'admin_email' => '1586782353QQ.com',
+  'admin_tel' => '18831083548',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001279s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008230s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:13+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.464047s] [吞吐率：2.15req/s] [内存消耗：3,828.23kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '86',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'admin',
+  'admin_pwd' => 'admin',
+  'admin_email' => '1586782353@QQ.com',
+  'admin_tel' => '18831083548',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001218s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.023499s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('admin' , '21232f297a57a5a743894a0e4a801fc3' , '1586782353@QQ.com' , '18831083548') [ RunTime:0.328728s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:17+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.054814s] [吞吐率：18.24req/s] [内存消耗：2,218.90kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T09:50:19+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.084326s] [吞吐率：11.86req/s] [内存消耗：3,919.73kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001157s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009085s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000906s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:22+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=4
+[运行时间：0.082496s] [吞吐率：12.12req/s] [内存消耗：3,919.80kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009184s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 6,2 [ RunTime:0.000687s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:28+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=3
+[运行时间：0.119369s] [吞吐率：8.38req/s] [内存消耗：3,919.77kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=4',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002337s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008762s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 4,2 [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:30+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=2
+[运行时间：0.108011s] [吞吐率：9.26req/s] [内存消耗：3,919.80kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=3',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001294s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.041883s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 2,2 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:31+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.077730s] [吞吐率：12.87req/s] [内存消耗：3,919.80kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=2',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001261s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010552s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:39+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=1
+[运行时间：0.085577s] [吞吐率：11.69req/s] [内存消耗：3,919.80kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001311s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009419s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%1%' [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%1%' LIMIT 0,2 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:41+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=1&page=2
+[运行时间：0.080979s] [吞吐率：12.35req/s] [内存消耗：3,914.43kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '1',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001259s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009693s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%1%' [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%1%' LIMIT 2,2 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:43+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=1&page=1
+[运行时间：0.093281s] [吞吐率：10.72req/s] [内存消耗：3,919.95kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1&page=2',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.029556s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%1%' [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%1%' LIMIT 0,2 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[2019-05-11T09:50:46+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=
+[运行时间：0.147027s] [吞吐率：6.80req/s] [内存消耗：3,919.95kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1&page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001252s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.073117s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-05-11T09:55:12+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=
+[运行时间：0.099811s] [吞吐率：10.02req/s] [内存消耗：4,165.34kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1&page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001292s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[2019-05-11T09:55:14+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/delete.html?admin_id=8
+[运行时间：0.137719s] [吞吐率：7.26req/s] [内存消耗：3,696.73kb] [文件加载：77]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001318s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.012039s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_id` = 8 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] DELETE FROM `shop_admin` WHERE  `admin_id` = 8 [ RunTime:0.008530s ]
+---------------------------------------------------------------
+[2019-05-11T09:55:16+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=
+[运行时间：0.082245s] [吞吐率：12.16req/s] [内存消耗：3,920.65kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1&page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001181s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010859s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[2019-05-11T10:03:15+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?admin_name=
+[运行时间：0.101377s] [吞吐率：9.86req/s] [内存消耗：3,920.65kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1&page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002260s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000742s ]
+---------------------------------------------------------------
+[2019-05-11T10:03:16+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.052938s] [吞吐率：18.89req/s] [内存消耗：2,398.11kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T10:03:38+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.210977s] [吞吐率：4.74req/s] [内存消耗：3,828.23kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '80',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '1568',
+  'admin_pwd' => '4554',
+  'admin_email' => '123456@QQ.com',
+  'admin_tel' => '13739455518',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001282s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.012047s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '1568' LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('1568' , 'e7023ba77a45f7e84c5ee8a28dd63585' , '123456@QQ.com' , '13739455518') [ RunTime:0.001368s ]
+---------------------------------------------------------------
+[2019-05-11T10:03:43+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.081782s] [吞吐率：12.23req/s] [内存消耗：3,920.23kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010206s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[2019-05-11T10:03:46+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=4
+[运行时间：0.097144s] [吞吐率：10.29req/s] [内存消耗：3,920.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002047s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.012926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 6,2 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-05-11T10:46:28+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.074292s] [吞吐率：13.46req/s] [内存消耗：2,398.34kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=4',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T10:46:40+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.055791s] [吞吐率：17.92req/s] [内存消耗：2,219.96kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?admin_name=1&page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T10:47:09+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.479571s] [吞吐率：2.09req/s] [内存消耗：3,828.23kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '99999',
+  'admin_pwd' => '123',
+  'admin_email' => '12222@cc.com',
+  'admin_tel' => '15831025886',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002334s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.011338s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '99999' LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('99999' , '202cb962ac59075b964b07152d234b70' , '12222@cc.com' , '15831025886') [ RunTime:0.001474s ]
+---------------------------------------------------------------
+[2019-05-11T10:47:16+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.099426s] [吞吐率：10.06req/s] [内存消耗：3,920.23kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002223s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[2019-05-11T10:47:18+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=5
+[运行时间：0.077741s] [吞吐率：12.86req/s] [内存消耗：3,918.78kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.007777s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 8,2 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[2019-05-11T10:47:23+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.076572s] [吞吐率：13.06req/s] [内存消耗：3,920.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001164s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[2019-05-11T10:47:24+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.053439s] [吞吐率：18.71req/s] [内存消耗：2,219.70kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T10:47:51+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.210648s] [吞吐率：4.75req/s] [内存消耗：3,828.23kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '81',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'wqd12',
+  'admin_pwd' => '123',
+  'admin_email' => '1232221@aa.com',
+  'admin_tel' => '13466505524',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009815s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = 'wqd12' LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('wqd12' , '202cb962ac59075b964b07152d234b70' , '1232221@aa.com' , '13466505524') [ RunTime:0.000748s ]
+---------------------------------------------------------------
+[2019-05-11T10:47:54+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.086642s] [吞吐率：11.54req/s] [内存消耗：3,920.23kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.013864s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[2019-05-11T10:47:55+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=5
+[运行时间：0.089735s] [吞吐率：11.14req/s] [内存消耗：3,920.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 8,2 [ RunTime:0.001038s ]
+---------------------------------------------------------------
+[2019-05-11T10:48:00+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.089714s] [吞吐率：11.15req/s] [内存消耗：3,920.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001260s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.011921s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-05-11T15:31:09+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.159372s] [吞吐率：6.27req/s] [内存消耗：4,170.34kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.057847s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[2019-05-11T15:31:31+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.082168s] [吞吐率：12.17req/s] [内存消耗：4,170.37kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[2019-05-11T15:31:56+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.123484s] [吞吐率：8.10req/s] [内存消耗：4,170.35kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009660s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[2019-05-11T15:32:46+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.087208s] [吞吐率：11.47req/s] [内存消耗：4,170.40kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009087s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[2019-05-11T15:35:05+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.139441s] [吞吐率：7.17req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010699s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010076s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[2019-05-11T15:35:21+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.102536s] [吞吐率：9.75req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001273s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[2019-05-11T15:35:36+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.093544s] [吞吐率：10.69req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[2019-05-11T15:35:44+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.091769s] [吞吐率：10.90req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001260s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.014655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[2019-05-11T15:37:29+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.121661s] [吞吐率：8.22req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.011023s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[2019-05-11T15:38:05+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.118915s] [吞吐率：8.41req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001140s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009109s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[2019-05-11T15:38:27+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.108390s] [吞吐率：9.23req/s] [内存消耗：4,170.45kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001143s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009649s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000899s ]
+---------------------------------------------------------------
+[2019-05-11T15:50:34+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.071953s] [吞吐率：13.90req/s] [内存消耗：2,398.34kb] [文件加载：69]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T15:50:51+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.086649s] [吞吐率：11.54req/s] [内存消耗：3,859.27kb] [文件加载：79]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '82',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '爱你',
+  'admin_pwd' => '123',
+  'admin_email' => '158666@QQ.com',
+  'admin_tel' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003059s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008893s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '爱你' LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[2019-05-11T15:51:02+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.224740s] [吞吐率：4.45req/s] [内存消耗：3,828.33kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '93',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '爱你',
+  'admin_pwd' => '123',
+  'admin_email' => '158666@QQ.com',
+  'admin_tel' => '13731045520',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010093s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '爱你' LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('爱你' , '202cb962ac59075b964b07152d234b70' , '158666@QQ.com' , '13731045520') [ RunTime:0.098587s ]
+---------------------------------------------------------------
+[2019-05-11T15:51:04+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.091047s] [吞吐率：10.98req/s] [内存消耗：4,169.93kb] [文件加载：85]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001609s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.012993s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[2019-05-11T15:51:06+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=6
+[运行时间：0.099176s] [吞吐率：10.08req/s] [内存消耗：3,919.78kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001390s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.001976s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 10,2 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[2019-05-11T15:51:10+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.083075s] [吞吐率：12.04req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=6',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001705s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009290s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[2019-05-11T15:51:13+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.051746s] [吞吐率：19.33req/s] [内存消耗：2,219.70kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T15:52:00+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.073324s] [吞吐率：13.64req/s] [内存消耗：3,859.59kb] [文件加载：79]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '113',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '一生一世',
+  'admin_pwd' => '1314',
+  'admin_email' => '1314@aini.com',
+  'admin_tel' => '134145201314',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010319s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '一生一世' LIMIT 1 [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[2019-05-11T15:52:11+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.075230s] [吞吐率：13.29req/s] [内存消耗：3,859.59kb] [文件加载：79]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '113',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '一生一世',
+  'admin_pwd' => '1314',
+  'admin_email' => '1314@aini.com',
+  'admin_tel' => '134002501314',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001288s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008745s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '一生一世' LIMIT 1 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[2019-05-11T15:52:33+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.075330s] [吞吐率：13.27req/s] [内存消耗：3,859.59kb] [文件加载：79]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '114',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '一生一世',
+  'admin_pwd' => '1314',
+  'admin_email' => '1314999@ai.com',
+  'admin_tel' => '134002501314',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001340s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010596s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '一生一世' LIMIT 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[2019-05-11T15:52:44+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.245671s] [吞吐率：4.07req/s] [内存消耗：3,828.61kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '113',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '一生一世',
+  'admin_pwd' => '1314',
+  'admin_email' => '1314999@ai.com',
+  'admin_tel' => '13400301314',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001235s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.011163s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '一生一世' LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('一生一世' , '50905d7b2216bfeccb5b41016357176b' , '1314999@ai.com' , '13400301314') [ RunTime:0.000756s ]
+---------------------------------------------------------------
+[2019-05-11T15:52:47+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.076896s] [吞吐率：13.00req/s] [内存消耗：3,921.23kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001707s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.007641s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[2019-05-11T15:52:48+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=6
+[运行时间：0.094225s] [吞吐率：10.61req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012012s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008081s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 10,2 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[2019-05-11T15:52:56+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.101482s] [吞吐率：9.85req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=6',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001256s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010261s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:05+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/create.html
+[运行时间：0.049138s] [吞吐率：20.35req/s] [内存消耗：2,219.70kb] [文件加载：67]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\create.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-11T15:53:31+08:00] 127.0.0.1 POST www.myshop.com/admin.php/admin/save.html
+[运行时间：0.200579s] [吞吐率：4.99req/s] [内存消耗：3,828.61kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '112',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => '爱的那是',
+  'admin_pwd' => '1316',
+  'admin_email' => '999999@ni.com',
+  'admin_tel' => '15731025890',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.021865s ]
+[ sql ] [ SQL ] SELECT `admin_id` FROM `shop_admin` WHERE  `admin_name` = '爱的那是' LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] INSERT INTO `shop_admin` (`admin_name` , `admin_pwd` , `admin_email` , `admin_tel`) VALUES ('爱的那是' , 'f3f1b7fc5a8779a9e618e1f23a7b7860' , '999999@ni.com' , '15731025890') [ RunTime:0.001204s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:33+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.085762s] [吞吐率：11.66req/s] [内存消耗：3,921.23kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001444s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.011540s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:37+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/delete.html?admin_id=9
+[运行时间：0.214843s] [吞吐率：4.65req/s] [内存消耗：3,696.72kb] [文件加载：77]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002855s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008980s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_id` = 9 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] DELETE FROM `shop_admin` WHERE  `admin_id` = 9 [ RunTime:0.097892s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:41+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html
+[运行时间：0.106880s] [吞吐率：9.36req/s] [内存消耗：3,921.56kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/create.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001114s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:43+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=6
+[运行时间：0.078031s] [吞吐率：12.82req/s] [内存消耗：3,921.31kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 10,2 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:45+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=5
+[运行时间：0.086700s] [吞吐率：11.53req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=6',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011469s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.008146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 8,2 [ RunTime:0.001617s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:46+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=4
+[运行时间：0.078384s] [吞吐率：12.76req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=5',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009978s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 6,2 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:46+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=3
+[运行时间：0.104797s] [吞吐率：9.54req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=4',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.012443s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 4,2 [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:47+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=2
+[运行时间：0.094464s] [吞吐率：10.59req/s] [内存消耗：3,921.27kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=3',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001507s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.010223s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 2,2 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[2019-05-11T15:53:47+08:00] 127.0.0.1 GET www.myshop.com/admin.php/admin/index.html?page=1
+[运行时间：0.082743s] [吞吐率：12.09req/s] [内存消耗：3,921.30kb] [文件加载：83]
+[ info ] [ LANG ] D:\xampp\htdocs\myshop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myshop.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.myshop.com/admin.php/admin/index.html?page=2',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\myshop\application\admin\view\admin\index.html [ array (
+  0 => 'admin_name',
+  1 => 'admins',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.009447s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_admin` WHERE  `admin_name` LIKE '%%' [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` LIKE '%%' LIMIT 0,2 [ RunTime:0.000233s ]

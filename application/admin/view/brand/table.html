@@ -1,0 +1,25 @@
+{volist name='brandInfo' id='v'}
+<tr brand_id="{$v.brand_id}" >
+    <td>{$v.brand_id}</td>
+    <td field="brand_name">
+        <span>{$v.brand_name}</span>
+        <input type="text" value="{$v.brand_name}" class="changeValue" style="display: none">
+    </td>
+    <td  field="brand_url">
+        <span>{$v.brand_url}</span>
+        <input type="text" value="{$v.brand_url}" class="changeValue"  style="display: none">
+    </td>
+    <td>
+        {if $v['is_show']==1}
+        √
+        {else/}
+        ×
+        {/if}
+    </td>
+    <td><a href="">删除</a></td>
+</tr>
+{/volist}
+
+<tr>
+    <td colspan="5"> {$str|raw}</td>
+</tr>
